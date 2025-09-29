@@ -1,0 +1,14 @@
+/give @p minecraft:structure_block
+/give @p minecraft:structure_
+/give @p minecraft:structure_void
+/time set day
+/locate structure pruebatfg:prueba
+/tp @s -80 ~ 112
+/locate structure pruebatfg:prueba
+/tp @s -128 ~ 112
+/locate structure pruebatfg:prueba
+/tp 1000 100 1000
+/locate structure pruebatfg:prueba
+/tp @s 720 ~ 752
+/kill @e
+/advancement grant @a everything
