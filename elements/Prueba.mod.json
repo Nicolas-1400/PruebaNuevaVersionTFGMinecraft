@@ -19,7 +19,7 @@
     "terrainAdaptation": "none",
     "generationStep": "SURFACE_STRUCTURES",
     "surfaceDetectionType": "WORLD_SURFACE_WG",
-    "useStartHeight": false,
+    "useStartHeight": true,
     "startHeightProviderType": "UNIFORM",
     "startHeightMin": 0,
     "startHeightMax": 128,

@@ -8,9 +8,9 @@
       "registry_name": "prueba",
       "metadata": {
         "files": [
-          "src/main/resources/data/pruebatfg/worldgen/structure/prueba.json",
+          "src/main/resources/data/pruebatfg/worldgen/structure_set/prueba.json",
           "src/main/resources/data/pruebatfg/worldgen/template_pool/prueba.json",
-          "src/main/resources/data/pruebatfg/worldgen/structure_set/prueba.json"
+          "src/main/resources/data/pruebatfg/worldgen/structure/prueba.json"
         ]
       }
     }
@@ -25,8 +25,8 @@
   "metadata": {
     "files": [
       "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/resources/pack.mcmeta",
-      "src/main/java/net/mcreator/pruebatfg/PruebatfgMod.java"
+      "src/main/java/net/mcreator/pruebatfg/PruebatfgMod.java",
+      "src/main/resources/pack.mcmeta"
     ]
   },
   "foldersRoot": {
