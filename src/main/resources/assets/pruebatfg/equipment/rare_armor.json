@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "pruebatfg:rare_armor"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "pruebatfg:rare_armor"
+      }
+    ]
+  }
+}

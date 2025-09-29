@@ -18,6 +18,10 @@ import net.minecraft.network.protocol.common.custom.CustomPacketPayload;
 import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.pruebatfg.init.PruebatfgModTabs;
+import net.mcreator.pruebatfg.init.PruebatfgModItems;
+import net.mcreator.pruebatfg.init.PruebatfgModBlocks;
+
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.Map;
 import java.util.List;
@@ -35,6 +39,12 @@ public class PruebatfgMod {
 		// End of user code block mod constructor
 		NeoForge.EVENT_BUS.register(this);
 		modEventBus.addListener(this::registerNetworking);
+
+		PruebatfgModBlocks.REGISTRY.register(modEventBus);
+
+		PruebatfgModItems.REGISTRY.register(modEventBus);
+
+		PruebatfgModTabs.REGISTRY.register(modEventBus);
 
 		// Start of user code block mod init
 		// End of user code block mod init

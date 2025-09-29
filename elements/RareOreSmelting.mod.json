@@ -1,0 +1,27 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:RareOre"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 3.5,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:Pepita"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:RareIngot"
+    },
+    "name": "rare_ore_smelting",
+    "namespace": "mod"
+  }
+}

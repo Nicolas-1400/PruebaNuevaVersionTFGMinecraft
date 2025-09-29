@@ -12,3 +12,4 @@
 /tp @s 720 ~ 752
 /kill @e
 /advancement grant @a everything
+/kill

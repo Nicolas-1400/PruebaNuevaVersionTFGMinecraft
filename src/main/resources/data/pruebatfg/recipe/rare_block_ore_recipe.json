@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "pruebatfg:rare_block"
+  ],
+  "result": {
+    "id": "pruebatfg:rare_ingot",
+    "count": 9
+  }
+}

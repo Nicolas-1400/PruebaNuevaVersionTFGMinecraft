@@ -1,1 +1,15 @@
-{}
+{
+  "item.pruebatfg.rare_ingot": "Rare",
+  "item.pruebatfg.rare_ore": "Rare Ore",
+  "item.pruebatfg.rare_block": "Block of Rare",
+  "item.pruebatfg.rare_pickaxe": "Rare Pickaxe",
+  "item.pruebatfg.rare_axe": "Rare Axe",
+  "item.pruebatfg.rare_sword": "Rare Sword",
+  "item.pruebatfg.rare_shovel": "Rare Shovel",
+  "item.pruebatfg.rare_hoe": "Rare Hoe",
+  "item.pruebatfg.rare_armor_helmet": "Rare Helmet",
+  "item.pruebatfg.rare_armor_leggings": "Rare Leggings",
+  "item.pruebatfg.rare_armor_boots": "Rare Boots",
+  "item.pruebatfg.rare_armor_chestplate": "Rare Chestplate",
+  "item.pruebatfg.pepita": "Pepita"
+}

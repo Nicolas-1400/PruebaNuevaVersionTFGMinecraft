@@ -9,7 +9,7 @@ neoforgeclientdev
 --assetIndex
 19
 --assetsDir
-C:\\Users\\nicog\\.mcreator\\gradle\\caches\\neoformruntime\\assets
+C:\\Users\\grana\\.mcreator\\gradle\\caches\\neoformruntime\\assets
 --gameDir
 .
 --fml.fmlVersion

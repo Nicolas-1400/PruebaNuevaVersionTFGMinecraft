@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": "pruebatfg:rare_ingot"
+  },
+  "result": {
+    "id": "pruebatfg:rare_block",
+    "count": 1
+  }
+}
