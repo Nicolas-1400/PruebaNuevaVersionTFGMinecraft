@@ -11,5 +11,9 @@
   "item.pruebatfg.rare_armor_leggings": "Rare Leggings",
   "item.pruebatfg.rare_armor_boots": "Rare Boots",
   "item.pruebatfg.rare_armor_chestplate": "Rare Chestplate",
-  "item.pruebatfg.pepita": "Pepita"
+  "item.pruebatfg.pepita": "Pepita",
+  "advancements.logro_material_rare.descr": "Consigue un lingote de Rare",
+  "advancements.logro_material_rare.title": "Un nuevo material",
+  "advancements.dano.title": "Eso duele",
+  "advancements.dano.descr": "Así es la puta vida"
 }

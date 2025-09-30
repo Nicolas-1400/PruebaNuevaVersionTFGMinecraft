@@ -13,3 +13,5 @@
 /kill @e
 /advancement grant @a everything
 /kill
+/gamemode creative
+/gamemode survival

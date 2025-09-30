@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "pruebatfg:pepita"
+    },
+    "title": {
+      "translate": "advancements.dano.title"
+    },
+    "description": {
+      "translate": "advancements.dano.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "dano_0": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "taken": {
+            "min": 0,
+            "max": 100000
+          },
+          },
+          "blocked": false
+        }
+      }
+    }
+  },
+  "parent": "pruebatfg:logro_material_rare"
+}

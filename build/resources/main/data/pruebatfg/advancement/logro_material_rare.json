@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "pruebatfg:rare_ingot"
+    },
+    "title": {
+      "translate": "advancements.logro_material_rare.title"
+    },
+    "description": {
+      "translate": "advancements.logro_material_rare.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "logro_material_rare_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pruebatfg:rare_ingot"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "minecraft:adventure/adventuring_time"
+}
