@@ -342,40 +342,6 @@
           "src/main/resources/data/pruebatfg/loot_table/blocks/rare_tronco.json"
         ]
       }
-    },
-    {
-      "name": "RareHojas",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rare_hojas",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/pruebatfg/models/item/rare_hojas.json",
-          "src/main/resources/assets/pruebatfg/items/rare_hojas.json",
-          "src/main/resources/assets/pruebatfg/blockstates/rare_hojas.json",
-          "src/main/resources/assets/pruebatfg/models/block/rare_hojas.json",
-          "src/main/java/net/mcreator/pruebatfg/block/RareHojasBlock.java",
-          "src/main/resources/data/pruebatfg/loot_table/blocks/rare_hojas.json"
-        ]
-      }
-    },
-    {
-      "name": "RaraTablones",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rara_tablones",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/pruebatfg/models/block/rara_tablones.json",
-          "src/main/resources/assets/pruebatfg/models/item/rara_tablones.json",
-          "src/main/resources/assets/pruebatfg/blockstates/rara_tablones.json",
-          "src/main/java/net/mcreator/pruebatfg/block/RaraTablonesBlock.java",
-          "src/main/resources/data/pruebatfg/loot_table/blocks/rara_tablones.json",
-          "src/main/resources/assets/pruebatfg/items/rara_tablones.json"
-        ]
-      }
     }
   ],
   "variable_elements": [],
@@ -451,9 +417,7 @@
       "item.pruebatfg.rare_armor_boots": "Rare Boots",
       "item.pruebatfg.rare_armor_chestplate": "Rare Chestplate",
       "item.pruebatfg.pepita": "Pepita",
-      "item.pruebatfg.rare_tronco": "Rare Tronco",
-      "item.pruebatfg.rare_hojas": "Rare Hojas",
-      "item.pruebatfg.rara_tablones": "Rara Tablones"
+      "item.pruebatfg.rare_tronco": "Rare Tronco"
     }
   },
   "metadata": {

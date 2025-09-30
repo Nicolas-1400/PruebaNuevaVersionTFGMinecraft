@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "pruebatfg:block/rare_tablones",
+    "up": "pruebatfg:block/rare_tablones",
+    "north": "pruebatfg:block/rare_tablones",
+    "east": "pruebatfg:block/rare_tablones",
+    "south": "pruebatfg:block/rare_tablones",
+    "west": "pruebatfg:block/rare_tablones",
+    "particle": "pruebatfg:block/rare_tablones"
+  },
+  "render_type": "solid"
+}

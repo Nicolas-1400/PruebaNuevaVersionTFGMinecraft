@@ -38,6 +38,9 @@ public class PruebatfgModItems {
 	public static final DeferredItem<Item> RARE_ARMOR_LEGGINGS = register("rare_armor_leggings", RareArmorItem.Leggings::new);
 	public static final DeferredItem<Item> RARE_ARMOR_BOOTS = register("rare_armor_boots", RareArmorItem.Boots::new);
 	public static final DeferredItem<Item> PEPITA = register("pepita", PepitaItem::new);
+	public static final DeferredItem<Item> RARE_TRONCO = block(PruebatfgModBlocks.RARE_TRONCO);
+	public static final DeferredItem<Item> RARE_HOJAS = block(PruebatfgModBlocks.RARE_HOJAS);
+	public static final DeferredItem<Item> RARA_TABLONES = block(PruebatfgModBlocks.RARA_TABLONES);
 
 	// Start of user code block custom items
 	// End of user code block custom items

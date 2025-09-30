@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "pruebatfg:block/top_tronco",
+    "up": "pruebatfg:block/top_tronco",
+    "north": "pruebatfg:block/front_tronco",
+    "east": "pruebatfg:block/front_tronco",
+    "south": "pruebatfg:block/front_tronco",
+    "west": "pruebatfg:block/front_tronco",
+    "particle": "pruebatfg:block/top_tronco"
+  },
+  "render_type": "solid"
+}
