@@ -19,6 +19,7 @@ import net.mcreator.pruebatfg.item.RareHoeItem;
 import net.mcreator.pruebatfg.item.RareAxeItem;
 import net.mcreator.pruebatfg.item.RareArmorItem;
 import net.mcreator.pruebatfg.item.PepitaItem;
+import net.mcreator.pruebatfg.item.BoosterBootsItem;
 import net.mcreator.pruebatfg.PruebatfgMod;
 
 import java.util.function.Function;
@@ -38,6 +39,7 @@ public class PruebatfgModItems {
 	public static final DeferredItem<Item> RARE_ARMOR_LEGGINGS = register("rare_armor_leggings", RareArmorItem.Leggings::new);
 	public static final DeferredItem<Item> RARE_ARMOR_BOOTS = register("rare_armor_boots", RareArmorItem.Boots::new);
 	public static final DeferredItem<Item> PEPITA = register("pepita", PepitaItem::new);
+	public static final DeferredItem<Item> BOOSTER_BOOTS_BOOTS = register("booster_boots_boots", BoosterBootsItem.Boots::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -30,12 +30,14 @@ public class PruebatfgModTabs {
 			tabData.accept(PruebatfgModItems.RARE_AXE.get());
 			tabData.accept(PruebatfgModItems.RARE_SHOVEL.get());
 			tabData.accept(PruebatfgModItems.RARE_HOE.get());
+			tabData.accept(PruebatfgModItems.BOOSTER_BOOTS_BOOTS.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 			tabData.accept(PruebatfgModItems.RARE_SWORD.get());
 			tabData.accept(PruebatfgModItems.RARE_ARMOR_HELMET.get());
 			tabData.accept(PruebatfgModItems.RARE_ARMOR_CHESTPLATE.get());
 			tabData.accept(PruebatfgModItems.RARE_ARMOR_LEGGINGS.get());
 			tabData.accept(PruebatfgModItems.RARE_ARMOR_BOOTS.get());
+			tabData.accept(PruebatfgModItems.BOOSTER_BOOTS_BOOTS.get());
 		}
 	}
 }
