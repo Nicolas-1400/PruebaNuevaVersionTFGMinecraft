@@ -311,6 +311,44 @@
           "src/main/resources/data/pruebatfg/advancement/recipes/rare_armor_boots_recipe.json"
         ]
       }
+    },
+    {
+      "name": "Pepita",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pepita",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pruebatfg/item/PepitaItem.java",
+          "src/main/resources/assets/pruebatfg/models/item/pepita.json",
+          "src/main/resources/assets/pruebatfg/items/pepita.json"
+        ]
+      }
+    },
+    {
+      "name": "LogroMaterialRare",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "logro_material_rare",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/pruebatfg/advancement/logro_material_rare.json"
+        ]
+      }
+    },
+    {
+      "name": "Dano",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dano",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/pruebatfg/advancement/dano.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -384,14 +422,22 @@
       "item.pruebatfg.rare_armor_helmet": "Rare Helmet",
       "item.pruebatfg.rare_armor_leggings": "Rare Leggings",
       "item.pruebatfg.rare_armor_boots": "Rare Boots",
-      "item.pruebatfg.rare_armor_chestplate": "Rare Chestplate"
+      "item.pruebatfg.rare_armor_chestplate": "Rare Chestplate",
+      "item.pruebatfg.pepita": "Pepita",
+      "advancements.logro_material_rare.descr": "Consigue un lingote de Rare",
+      "advancements.logro_material_rare.title": "Un nuevo material",
+      "advancements.dano.title": "Eso duele",
+      "advancements.dano.descr": "Así es la puta vida"
     }
   },
   "metadata": {
     "files": [
+      "src/main/java/net/mcreator/pruebatfg/init/PruebatfgModTabs.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/mcreator/pruebatfg/PruebatfgMod.java",
       "src/main/resources/pack.mcmeta",
-      "src/main/java/net/mcreator/pruebatfg/PruebatfgMod.java"
+      "src/main/java/net/mcreator/pruebatfg/init/PruebatfgModBlocks.java",
+      "src/main/java/net/mcreator/pruebatfg/init/PruebatfgModItems.java"
     ]
   },
   "foldersRoot": {
