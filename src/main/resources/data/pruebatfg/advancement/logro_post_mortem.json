@@ -1,0 +1,23 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "id": "minecraft:skeleton_skull"
+    },
+    "title": {
+      "translate": "advancements.logro_post_mortem.title"
+    },
+    "description": {
+      "translate": "advancements.logro_post_mortem.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "logro_post_mortem_0": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

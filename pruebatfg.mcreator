@@ -339,14 +339,78 @@
       }
     },
     {
-      "name": "Dano",
+      "name": "LogroPostMortem",
       "type": "achievement",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "dano",
+      "registry_name": "logro_post_mortem",
       "metadata": {
         "files": [
-          "src/main/resources/data/pruebatfg/advancement/dano.json"
+          "src/main/resources/data/pruebatfg/advancement/logro_post_mortem.json"
+        ]
+      }
+    },
+    {
+      "name": "ProcedureLogroPostMortem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "procedure_logro_post_mortem",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/pruebatfg/procedures/ProcedureLogroPostMortemProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Trampas",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trampas",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/pruebatfg/advancement/trampas.json"
+        ]
+      }
+    },
+    {
+      "name": "ProcedureLogroTrampas",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "procedure_logro_trampas",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/pruebatfg/procedures/ProcedureLogroTrampasProcedure.java"
         ]
       }
     }
@@ -426,8 +490,10 @@
       "item.pruebatfg.pepita": "Pepita",
       "advancements.logro_material_rare.descr": "Consigue un lingote de Rare",
       "advancements.logro_material_rare.title": "Un nuevo material",
-      "advancements.dano.title": "Eso duele",
-      "advancements.dano.descr": "Así es la puta vida"
+      "advancements.logro_post_mortem.descr": "Reaparece",
+      "advancements.logro_post_mortem.title": "Post Mortem",
+      "advancements.trampas.descr": "Esto es de fecas",
+      "advancements.trampas.title": "Eso es hacer trampas"
     }
   },
   "metadata": {
