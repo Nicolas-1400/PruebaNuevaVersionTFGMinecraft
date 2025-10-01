@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wooden_button",
+  "category": "redstone",
+  "ingredients": [
+    "pruebatfg:rare_planks"
+  ],
+  "result": {
+    "id": "pruebatfg:rare_button",
+    "count": 1
+  }
+}

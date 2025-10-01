@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "pruebatfg:block/rare_log_top",
+    "up": "pruebatfg:block/rare_log_top",
+    "north": "pruebatfg:block/rare_log_side",
+    "east": "pruebatfg:block/rare_log_side",
+    "south": "pruebatfg:block/rare_log_side",
+    "west": "pruebatfg:block/rare_log_side",
+    "particle": "pruebatfg:block/rare_log_top"
+  },
+  "render_type": "solid"
+}

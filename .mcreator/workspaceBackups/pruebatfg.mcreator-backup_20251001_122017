@@ -1,0 +1,836 @@
+{
+  "mod_elements": [
+    {
+      "name": "Prueba",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prueba",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/pruebatfg/worldgen/structure/prueba.json",
+          "src/main/resources/data/pruebatfg/worldgen/template_pool/prueba.json",
+          "src/main/resources/data/pruebatfg/worldgen/structure_set/prueba.json"
+        ]
+      }
+    },
+    {
+      "name": "RareIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pruebatfg/item/RareIngotItem.java",
+          "src/main/resources/assets/pruebatfg/models/item/rare_ingot.json",
+          "src/main/resources/assets/pruebatfg/items/rare_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "RareOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pruebatfg/models/block/rare_ore.json",
+          "src/main/resources/data/pruebatfg/worldgen/configured_feature/rare_ore.json",
+          "src/main/resources/assets/pruebatfg/blockstates/rare_ore.json",
+          "src/main/resources/data/pruebatfg/loot_table/blocks/rare_ore.json",
+          "src/main/java/net/mcreator/pruebatfg/block/RareOreBlock.java",
+          "src/main/resources/assets/pruebatfg/models/item/rare_ore.json",
+          "src/main/resources/data/pruebatfg/worldgen/placed_feature/rare_ore.json",
+          "src/main/resources/assets/pruebatfg/items/rare_ore.json",
+          "src/main/resources/data/pruebatfg/neoforge/biome_modifier/rare_ore_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "RareBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/pruebatfg/loot_table/blocks/rare_block.json",
+          "src/main/resources/assets/pruebatfg/models/item/rare_block.json",
+          "src/main/resources/assets/pruebatfg/blockstates/rare_block.json",
+          "src/main/java/net/mcreator/pruebatfg/block/RareBlockBlock.java",
+          "src/main/resources/assets/pruebatfg/models/block/rare_block.json",
+          "src/main/resources/assets/pruebatfg/items/rare_block.json"
+        ]
+      }
+    },
+    {
+      "name": "RareOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/pruebatfg/recipe/rare_ore_block_recipe.json",
+          "src/main/resources/data/pruebatfg/advancement/recipes/rare_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RareBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/pruebatfg/advancement/recipes/rare_block_ore_recipe.json",
+          "src/main/resources/data/pruebatfg/recipe/rare_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RareOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/pruebatfg/recipe/rare_ore_smelting.json",
+          "src/main/resources/data/pruebatfg/advancement/recipes/rare_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "RarePickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pruebatfg/item/RarePickaxeItem.java",
+          "src/main/resources/assets/pruebatfg/models/item/rare_pickaxe.json",
+          "src/main/resources/assets/pruebatfg/items/rare_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "RareAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pruebatfg/item/RareAxeItem.java",
+          "src/main/resources/assets/pruebatfg/items/rare_axe.json",
+          "src/main/resources/assets/pruebatfg/models/item/rare_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "RareSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pruebatfg/item/RareSwordItem.java",
+          "src/main/resources/assets/pruebatfg/items/rare_sword.json",
+          "src/main/resources/assets/pruebatfg/models/item/rare_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "RareShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pruebatfg/items/rare_shovel.json",
+          "src/main/java/net/mcreator/pruebatfg/item/RareShovelItem.java",
+          "src/main/resources/assets/pruebatfg/models/item/rare_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "RareHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pruebatfg/item/RareHoeItem.java",
+          "src/main/resources/assets/pruebatfg/items/rare_hoe.json",
+          "src/main/resources/assets/pruebatfg/models/item/rare_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "RarePickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/pruebatfg/advancement/recipes/rare_pickaxe_recipe.json",
+          "src/main/resources/data/pruebatfg/recipe/rare_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RareAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/pruebatfg/advancement/recipes/rare_axe_recipe.json",
+          "src/main/resources/data/pruebatfg/recipe/rare_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RareSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/pruebatfg/recipe/rare_sword_recipe.json",
+          "src/main/resources/data/pruebatfg/advancement/recipes/rare_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RareShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/pruebatfg/recipe/rare_shovel_recipe.json",
+          "src/main/resources/data/pruebatfg/advancement/recipes/rare_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RareHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/pruebatfg/advancement/recipes/rare_hoe_recipe.json",
+          "src/main/resources/data/pruebatfg/recipe/rare_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RareArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pruebatfg/models/item/rare_armor_helmet.json",
+          "src/main/resources/assets/pruebatfg/models/item/rare_armor_boots.json",
+          "src/main/resources/assets/pruebatfg/models/item/rare_armor_leggings.json",
+          "src/main/resources/assets/pruebatfg/items/rare_armor_boots.json",
+          "src/main/resources/assets/pruebatfg/models/item/rare_armor_chestplate.json",
+          "src/main/resources/assets/pruebatfg/items/rare_armor_chestplate.json",
+          "src/main/resources/assets/pruebatfg/equipment/rare_armor.json",
+          "src/main/resources/assets/pruebatfg/items/rare_armor_helmet.json",
+          "src/main/java/net/mcreator/pruebatfg/item/RareArmorItem.java",
+          "src/main/resources/assets/pruebatfg/items/rare_armor_leggings.json"
+        ]
+      }
+    },
+    {
+      "name": "RareArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/pruebatfg/advancement/recipes/rare_armor_helmet_recipe.json",
+          "src/main/resources/data/pruebatfg/recipe/rare_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RareArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/pruebatfg/recipe/rare_armor_chestplate_recipe.json",
+          "src/main/resources/data/pruebatfg/advancement/recipes/rare_armor_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RareArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/pruebatfg/advancement/recipes/rare_armor_leggings_recipe.json",
+          "src/main/resources/data/pruebatfg/recipe/rare_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RareArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/pruebatfg/recipe/rare_armor_boots_recipe.json",
+          "src/main/resources/data/pruebatfg/advancement/recipes/rare_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Pepita",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pepita",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pruebatfg/item/PepitaItem.java",
+          "src/main/resources/assets/pruebatfg/models/item/pepita.json",
+          "src/main/resources/assets/pruebatfg/items/pepita.json"
+        ]
+      }
+    },
+    {
+      "name": "RareTronco",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_tronco",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pruebatfg/blockstates/rare_tronco.json",
+          "src/main/resources/assets/pruebatfg/models/block/rare_tronco.json",
+          "src/main/resources/assets/pruebatfg/items/rare_tronco.json",
+          "src/main/resources/assets/pruebatfg/models/item/rare_tronco.json",
+          "src/main/java/net/mcreator/pruebatfg/block/RareTroncoBlock.java",
+          "src/main/resources/data/pruebatfg/loot_table/blocks/rare_tronco.json"
+        ]
+      }
+    },
+    {
+      "name": "RareHojas",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_hojas",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pruebatfg/models/item/rare_hojas.json",
+          "src/main/resources/assets/pruebatfg/items/rare_hojas.json",
+          "src/main/resources/assets/pruebatfg/blockstates/rare_hojas.json",
+          "src/main/resources/assets/pruebatfg/models/block/rare_hojas.json",
+          "src/main/java/net/mcreator/pruebatfg/block/RareHojasBlock.java",
+          "src/main/resources/data/pruebatfg/loot_table/blocks/rare_hojas.json"
+        ]
+      }
+    },
+    {
+      "name": "RaraTablones",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rara_tablones",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pruebatfg/models/block/rara_tablones.json",
+          "src/main/resources/assets/pruebatfg/models/item/rara_tablones.json",
+          "src/main/resources/assets/pruebatfg/blockstates/rara_tablones.json",
+          "src/main/java/net/mcreator/pruebatfg/block/RaraTablonesBlock.java",
+          "src/main/resources/data/pruebatfg/loot_table/blocks/rara_tablones.json",
+          "src/main/resources/assets/pruebatfg/items/rara_tablones.json"
+        ]
+      }
+    },
+    {
+      "name": "RareWoodLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_wood_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pruebatfg/items/rare_wood_log.json",
+          "src/main/resources/assets/pruebatfg/blockstates/rare_wood_log.json",
+          "src/main/resources/assets/pruebatfg/models/item/rare_wood_log.json",
+          "src/main/resources/data/pruebatfg/loot_table/blocks/rare_wood_log.json",
+          "src/main/java/net/mcreator/pruebatfg/block/RareWoodLogBlock.java",
+          "src/main/resources/assets/pruebatfg/models/block/rare_wood_log.json"
+        ]
+      }
+    },
+    {
+      "name": "RareWoodWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_wood_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/pruebatfg/loot_table/blocks/rare_wood_wood.json",
+          "src/main/java/net/mcreator/pruebatfg/block/RareWoodWoodBlock.java",
+          "src/main/resources/assets/pruebatfg/items/rare_wood_wood.json",
+          "src/main/resources/assets/pruebatfg/blockstates/rare_wood_wood.json",
+          "src/main/resources/assets/pruebatfg/models/block/rare_wood_wood.json",
+          "src/main/resources/assets/pruebatfg/models/item/rare_wood_wood.json"
+        ]
+      }
+    },
+    {
+      "name": "RareWoodPlanks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_wood_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pruebatfg/blockstates/rare_wood_planks.json",
+          "src/main/resources/assets/pruebatfg/models/item/rare_wood_planks.json",
+          "src/main/resources/data/pruebatfg/loot_table/blocks/rare_wood_planks.json",
+          "src/main/resources/assets/pruebatfg/items/rare_wood_planks.json",
+          "src/main/resources/assets/pruebatfg/models/block/rare_wood_planks.json",
+          "src/main/java/net/mcreator/pruebatfg/block/RareWoodPlanksBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "RareWoodLeaves",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_wood_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pruebatfg/models/block/rare_wood_leaves.json",
+          "src/main/resources/assets/pruebatfg/items/rare_wood_leaves.json",
+          "src/main/resources/assets/pruebatfg/models/item/rare_wood_leaves.json",
+          "src/main/resources/assets/pruebatfg/blockstates/rare_wood_leaves.json",
+          "src/main/java/net/mcreator/pruebatfg/block/RareWoodLeavesBlock.java",
+          "src/main/resources/data/pruebatfg/loot_table/blocks/rare_wood_leaves.json"
+        ]
+      }
+    },
+    {
+      "name": "RareWoodStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_wood_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/pruebatfg/loot_table/blocks/rare_wood_stairs.json",
+          "src/main/resources/assets/pruebatfg/models/block/rare_wood_stairs.json",
+          "src/main/resources/assets/pruebatfg/models/block/rare_wood_stairs_outer.json",
+          "src/main/java/net/mcreator/pruebatfg/block/RareWoodStairsBlock.java",
+          "src/main/resources/assets/pruebatfg/blockstates/rare_wood_stairs.json",
+          "src/main/resources/assets/pruebatfg/items/rare_wood_stairs.json",
+          "src/main/resources/assets/pruebatfg/models/block/rare_wood_stairs_inner.json",
+          "src/main/resources/assets/pruebatfg/models/item/rare_wood_stairs.json"
+        ]
+      }
+    },
+    {
+      "name": "RareWoodSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_wood_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/pruebatfg/loot_table/blocks/rare_wood_slab.json",
+          "src/main/resources/assets/pruebatfg/models/block/rare_wood_slab_full.json",
+          "src/main/resources/assets/pruebatfg/models/item/rare_wood_slab.json",
+          "src/main/resources/assets/pruebatfg/models/block/rare_wood_slab_top.json",
+          "src/main/resources/assets/pruebatfg/blockstates/rare_wood_slab.json",
+          "src/main/java/net/mcreator/pruebatfg/block/RareWoodSlabBlock.java",
+          "src/main/resources/assets/pruebatfg/models/block/rare_wood_slab.json",
+          "src/main/resources/assets/pruebatfg/items/rare_wood_slab.json"
+        ]
+      }
+    },
+    {
+      "name": "RareWoodFence",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_wood_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pruebatfg/models/block/rare_wood_fence_post.json",
+          "src/main/resources/assets/pruebatfg/models/block/rare_wood_fence_inventory.json",
+          "src/main/resources/assets/pruebatfg/items/rare_wood_fence.json",
+          "src/main/resources/assets/pruebatfg/blockstates/rare_wood_fence.json",
+          "src/main/java/net/mcreator/pruebatfg/block/RareWoodFenceBlock.java",
+          "src/main/resources/data/pruebatfg/loot_table/blocks/rare_wood_fence.json",
+          "src/main/resources/assets/pruebatfg/models/block/rare_wood_fence.json",
+          "src/main/resources/assets/pruebatfg/models/item/rare_wood_fence.json"
+        ]
+      }
+    },
+    {
+      "name": "RareWoodFenceGate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_wood_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pruebatfg/models/block/rare_wood_fence_gate_open.json",
+          "src/main/java/net/mcreator/pruebatfg/block/RareWoodFenceGateBlock.java",
+          "src/main/resources/assets/pruebatfg/models/block/rare_wood_fence_gate.json",
+          "src/main/resources/data/pruebatfg/loot_table/blocks/rare_wood_fence_gate.json",
+          "src/main/resources/assets/pruebatfg/models/block/rare_wood_fence_gate_wall.json",
+          "src/main/resources/assets/pruebatfg/items/rare_wood_fence_gate.json",
+          "src/main/resources/assets/pruebatfg/models/block/rare_wood_fence_gate_wall_open.json",
+          "src/main/resources/assets/pruebatfg/blockstates/rare_wood_fence_gate.json",
+          "src/main/resources/assets/pruebatfg/models/item/rare_wood_fence_gate.json"
+        ]
+      }
+    },
+    {
+      "name": "RareWoodPressurePlate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_wood_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/pruebatfg/loot_table/blocks/rare_wood_pressure_plate.json",
+          "src/main/resources/assets/pruebatfg/models/block/rare_wood_pressure_plate.json",
+          "src/main/resources/assets/pruebatfg/items/rare_wood_pressure_plate.json",
+          "src/main/resources/assets/pruebatfg/models/item/rare_wood_pressure_plate.json",
+          "src/main/resources/assets/pruebatfg/models/block/rare_wood_pressure_plate_down.json",
+          "src/main/resources/assets/pruebatfg/blockstates/rare_wood_pressure_plate.json",
+          "src/main/java/net/mcreator/pruebatfg/block/RareWoodPressurePlateBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "RareWoodButton",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_wood_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pruebatfg/blockstates/rare_wood_button.json",
+          "src/main/resources/assets/pruebatfg/items/rare_wood_button.json",
+          "src/main/resources/assets/pruebatfg/models/item/rare_wood_button.json",
+          "src/main/resources/data/pruebatfg/loot_table/blocks/rare_wood_button.json",
+          "src/main/resources/assets/pruebatfg/models/block/rare_wood_button_inventory.json",
+          "src/main/java/net/mcreator/pruebatfg/block/RareWoodButtonBlock.java",
+          "src/main/resources/assets/pruebatfg/models/block/rare_wood_button.json",
+          "src/main/resources/assets/pruebatfg/models/block/rare_wood_button_pressed.json"
+        ]
+      }
+    },
+    {
+      "name": "RareWoodWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_wood_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/pruebatfg/advancement/recipes/rare_wood_wood_recipe.json",
+          "src/main/resources/data/pruebatfg/recipe/rare_wood_wood_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RareWoodPlanksRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_wood_planks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/pruebatfg/advancement/recipes/rare_wood_planks_recipe.json",
+          "src/main/resources/data/pruebatfg/recipe/rare_wood_planks_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RareWoodStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_wood_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/pruebatfg/recipe/rare_wood_stairs_recipe.json",
+          "src/main/resources/data/pruebatfg/advancement/recipes/rare_wood_stairs_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RareWoodSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_wood_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/pruebatfg/advancement/recipes/rare_wood_slab_recipe.json",
+          "src/main/resources/data/pruebatfg/recipe/rare_wood_slab_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RareWoodFenceRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_wood_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/pruebatfg/recipe/rare_wood_fence_recipe.json",
+          "src/main/resources/data/pruebatfg/advancement/recipes/rare_wood_fence_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RareWoodFenceGateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_wood_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/pruebatfg/advancement/recipes/rare_wood_fence_gate_recipe.json",
+          "src/main/resources/data/pruebatfg/recipe/rare_wood_fence_gate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RareWoodPressurePlateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_wood_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/pruebatfg/advancement/recipes/rare_wood_pressure_plate_recipe.json",
+          "src/main/resources/data/pruebatfg/recipe/rare_wood_pressure_plate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RareWoodButtonRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_wood_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/pruebatfg/advancement/recipes/rare_wood_button_recipe.json",
+          "src/main/resources/data/pruebatfg/recipe/rare_wood_button_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "V",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "v",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/pruebatfg/worldgen/structure/v.json",
+          "src/main/resources/data/pruebatfg/worldgen/structure_set/v.json",
+          "src/main/resources/data/pruebatfg/worldgen/template_pool/v.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:RareBlock",
+      "~CUSTOM:RareOre"
+    ],
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:RareBlock",
+      "~CUSTOM:RareOre"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:RarePickaxe"
+    ],
+    "ITEMS:pruebatfg:rare_pickaxe_repair_items": [
+      "~CUSTOM:RareIngot"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~CUSTOM:RareAxe"
+    ],
+    "ITEMS:pruebatfg:rare_axe_repair_items": [
+      "~CUSTOM:RareIngot"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:RareSword"
+    ],
+    "ITEMS:pruebatfg:rare_sword_repair_items": [
+      "~CUSTOM:RareIngot"
+    ],
+    "ITEMS:minecraft:shovels": [
+      "~CUSTOM:RareShovel"
+    ],
+    "ITEMS:pruebatfg:rare_shovel_repair_items": [
+      "~CUSTOM:RareIngot"
+    ],
+    "ITEMS:minecraft:hoes": [
+      "~CUSTOM:RareHoe"
+    ],
+    "ITEMS:pruebatfg:rare_hoe_repair_items": [
+      "~CUSTOM:RareIngot"
+    ],
+    "ITEMS:minecraft:head_armor": [
+      "~CUSTOM:RareArmor.helmet"
+    ],
+    "ITEMS:minecraft:chest_armor": [
+      "~CUSTOM:RareArmor.body"
+    ],
+    "ITEMS:minecraft:leg_armor": [
+      "~CUSTOM:RareArmor.legs"
+    ],
+    "ITEMS:minecraft:foot_armor": [
+      "~CUSTOM:RareArmor.boots"
+    ],
+    "ITEMS:pruebatfg:rare_armor_repair_items": [
+      "~CUSTOM:RareIngot"
+    ],
+    "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:RareWoodPlanks",
+      "~CUSTOM:RareWoodWood",
+      "~CUSTOM:RareWoodLog"
+    ],
+    "BLOCKS:minecraft:leaves": [
+      "~CUSTOM:RareWoodLeaves"
+    ],
+    "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:RareWoodStairs"
+    ],
+    "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:RareWoodSlab"
+    ],
+    "BLOCKS:minecraft:wooden_fences": [
+      "~CUSTOM:RareWoodFence"
+    ],
+    "BLOCKS:mod:rare_wood_logs": [
+      "CUSTOM:RareWoodLog",
+      "CUSTOM:RareWoodWood"
+    ],
+    "BLOCKS:minecraft:logs_that_burn": [
+      "TAG:mod:rare_wood_logs"
+    ],
+    "BLOCKS:minecraft:planks": [
+      "CUSTOM:RareWoodPlanks"
+    ],
+    "ITEMS:mod:rare_wood_logs": [
+      "CUSTOM:RareWoodLog",
+      "CUSTOM:RareWoodWood"
+    ],
+    "ITEMS:minecraft:logs_that_burn": [
+      "TAG:mod:rare_wood_logs"
+    ],
+    "ITEMS:minecraft:planks": [
+      "CUSTOM:RareWoodPlanks"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.pruebatfg.rare_ingot": "Rare",
+      "item.pruebatfg.rare_ore": "Rare Ore",
+      "item.pruebatfg.rare_block": "Block of Rare",
+      "item.pruebatfg.rare_pickaxe": "Rare Pickaxe",
+      "item.pruebatfg.rare_axe": "Rare Axe",
+      "item.pruebatfg.rare_sword": "Rare Sword",
+      "item.pruebatfg.rare_shovel": "Rare Shovel",
+      "item.pruebatfg.rare_hoe": "Rare Hoe",
+      "item.pruebatfg.rare_armor_helmet": "Rare Helmet",
+      "item.pruebatfg.rare_armor_leggings": "Rare Leggings",
+      "item.pruebatfg.rare_armor_boots": "Rare Boots",
+      "item.pruebatfg.rare_armor_chestplate": "Rare Chestplate",
+      "item.pruebatfg.pepita": "Pepita",
+      "item.pruebatfg.rare_tronco": "Rare Tronco",
+      "item.pruebatfg.rare_hojas": "Rare Hojas",
+      "item.pruebatfg.rara_tablones": "Rara Tablones",
+      "item.pruebatfg.rare_wood_log": "Rare Wood Log",
+      "item.pruebatfg.rare_wood_wood": "Rare Wood Wood",
+      "item.pruebatfg.rare_wood_planks": "Rare Wood Planks",
+      "item.pruebatfg.rare_wood_leaves": "Rare Wood Leaves",
+      "item.pruebatfg.rare_wood_stairs": "Rare Wood Stairs",
+      "item.pruebatfg.rare_wood_slab": "Rare Wood Slab",
+      "item.pruebatfg.rare_wood_fence": "Rare Wood Fence",
+      "item.pruebatfg.rare_wood_fence_gate": "Rare Wood Fence Gate",
+      "item.pruebatfg.rare_wood_pressure_plate": "Rare Wood Pressure Plate",
+      "item.pruebatfg.rare_wood_button": "Rare Wood Button"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/pruebatfg/PruebatfgMod.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/mcreator/pruebatfg/init/PruebatfgModTabs.java",
+      "src/main/java/net/mcreator/pruebatfg/init/PruebatfgModBlocks.java",
+      "src/main/java/net/mcreator/pruebatfg/init/PruebatfgModItems.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "pruebatfg",
+    "modName": "PruebaTFG",
+    "version": "1.0.0",
+    "author": "MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.4",
+    "modElementsPackage": "net.mcreator.pruebatfg"
+  },
+  "mcreatorVersion": 202500228610
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "pruebatfg:block/rare_pressure_plate"
+    },
+    "powered=true": {
+      "model": "pruebatfg:block/rare_pressure_plate_down"
+    }
+  }
+}

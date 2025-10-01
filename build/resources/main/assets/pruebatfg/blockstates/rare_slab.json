@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "pruebatfg:block/rare_slab"
+    },
+    "type=top": {
+      "model": "pruebatfg:block/rare_slab_top"
+    },
+    "type=double": {
+      "model": "pruebatfg:block/rare_slab_full"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "category": "building",
+  "ingredients": [
+    "#pruebatfg:rare_logs"
+  ],
+  "result": {
+    "id": "pruebatfg:rare_planks",
+    "count": 4
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "pruebatfg:block/rare_leaves",
+    "particle": "pruebatfg:block/rare_leaves"
+  }
+}

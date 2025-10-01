@@ -1,0 +1,8 @@
+{
+  "parent": "block/pressure_plate_down",
+  "textures": {
+    "particle": "pruebatfg:block/rare_planks",
+    "texture": "pruebatfg:block/rare_planks"
+  },
+  "render_type": "solid"
+}

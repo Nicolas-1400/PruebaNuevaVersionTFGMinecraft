@@ -1,0 +1,8 @@
+{
+  "parent": "block/fence_post",
+  "textures": {
+    "texture": "pruebatfg:block/rare_planks",
+    "particle": "pruebatfg:block/rare_planks"
+  },
+  "render_type": "solid"
+}

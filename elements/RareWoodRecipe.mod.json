@@ -1,0 +1,53 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "bark",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:RareLog"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:RareLog"
+      },
+      {
+        "value": "CUSTOM:RareLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:RareLog"
+      },
+      {
+        "value": "CUSTOM:RareLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:RareWood"
+    },
+    "name": "rare_wood_recipe",
+    "namespace": "mod"
+  }
+}

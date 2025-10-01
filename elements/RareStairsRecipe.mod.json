@@ -1,0 +1,53 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "wooden_stairs",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:RarePlanks"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:RarePlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:RarePlanks"
+      },
+      {
+        "value": "CUSTOM:RarePlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:RarePlanks"
+      },
+      {
+        "value": "CUSTOM:RarePlanks"
+      },
+      {
+        "value": "CUSTOM:RarePlanks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:RareStairs"
+    },
+    "name": "rare_stairs_recipe",
+    "namespace": "mod"
+  }
+}

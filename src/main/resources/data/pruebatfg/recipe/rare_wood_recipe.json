@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bark",
+  "category": "building",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": "pruebatfg:rare_log"
+  },
+  "result": {
+    "id": "pruebatfg:rare_wood",
+    "count": 3
+  }
+}

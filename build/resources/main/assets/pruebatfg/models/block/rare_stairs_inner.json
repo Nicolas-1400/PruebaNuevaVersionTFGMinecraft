@@ -1,0 +1,10 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "particle": "pruebatfg:block/rare_planks",
+    "bottom": "pruebatfg:block/rare_planks",
+    "top": "pruebatfg:block/rare_planks",
+    "side": "pruebatfg:block/rare_planks"
+  },
+  "render_type": "solid"
+}
