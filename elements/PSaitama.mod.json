@@ -1,0 +1,8 @@
+{
+  "_fv": 79,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><variables><variable type=\"Number\" id=\"enchant_levels\">enchant_levels</variable><variable type=\"MCItem\" id=\"emeralds\">emeralds</variable><variable type=\"MCItem\" id=\"tool\">tool</variable></variables><block type=\"event_trigger\" deletable=\"false\" x=\"40\" y=\"40\"><field name=\"trigger\">no_ext_trigger</field><next><block type=\"controls_if\"><value name=\"IF0\"><block type=\"itemstack_has_enchantment\"><field name=\"enhancement\">CUSTOM:Saitama</field><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">Items.WOODEN_SWORD</field></block></value></block></value><statement name=\"DO0\"><block type=\"item_add_enhancement\"><field name=\"enhancement\">KNOCKBACK</field><value name=\"level\"><block type=\"math_number\"><field name=\"NUM\">100</field></block></value><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">Items.WOODEN_SWORD</field></block></value></block></statement></block></next></block></xml>",
+    "skipDependencyNullCheck": false
+  }
+}
