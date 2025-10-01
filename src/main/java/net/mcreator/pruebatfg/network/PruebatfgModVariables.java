@@ -60,7 +60,6 @@ public class PruebatfgModVariables {
 		public static void clonePlayer(PlayerEvent.Clone event) {
 			PlayerVariables original = event.getOriginal().getData(PLAYER_VARIABLES);
 			PlayerVariables clone = new PlayerVariables();
-			clone.FullRareArmorIsEquipped = original.FullRareArmorIsEquipped;
 			clone.LogroRareArmorCompletado = original.LogroRareArmorCompletado;
 			if (!event.isWasDeath()) {
 			}
@@ -69,20 +68,17 @@ public class PruebatfgModVariables {
 	}
 
 	public static class PlayerVariables implements INBTSerializable<CompoundTag> {
-		public boolean FullRareArmorIsEquipped = false;
 		public boolean LogroRareArmorCompletado = false;
 
 		@Override
 		public CompoundTag serializeNBT(HolderLookup.Provider lookupProvider) {
 			CompoundTag nbt = new CompoundTag();
-			nbt.putBoolean("FullRareArmorIsEquipped", FullRareArmorIsEquipped);
 			nbt.putBoolean("LogroRareArmorCompletado", LogroRareArmorCompletado);
 			return nbt;
 		}
 
 		@Override
 		public void deserializeNBT(HolderLookup.Provider lookupProvider, CompoundTag nbt) {
-			FullRareArmorIsEquipped = nbt.getBoolean("FullRareArmorIsEquipped");
 			LogroRareArmorCompletado = nbt.getBoolean("LogroRareArmorCompletado");
 		}
 

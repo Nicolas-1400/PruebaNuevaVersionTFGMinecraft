@@ -2,11 +2,14 @@
   "_fv": 79,
   "_type": "structure",
   "definition": {
-    "structure": "prueba",
-    "projection": "rigid",
+    "structure": "prueba2",
+    "projection": "terrain_matching",
     "ignoredBlocks": [
       {
         "value": "Blocks.STRUCTURE_BLOCK"
+      },
+      {
+        "value": "Blocks.WATER"
       }
     ],
     "spacing": 5,
@@ -19,7 +22,7 @@
     "terrainAdaptation": "none",
     "generationStep": "SURFACE_STRUCTURES",
     "surfaceDetectionType": "WORLD_SURFACE_WG",
-    "useStartHeight": true,
+    "useStartHeight": false,
     "startHeightProviderType": "UNIFORM",
     "startHeightMin": 0,
     "startHeightMax": 128,

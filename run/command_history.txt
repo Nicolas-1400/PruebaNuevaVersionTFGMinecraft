@@ -1,22 +1,50 @@
-/give @p minecraft:structure_block
-/give @p minecraft:structure_
-/give @p minecraft:structure_void
+/tp @s -320 ~ -304
+/gamemode spectator
+/locate structure pruebatfg:prueba
+/tp @s -384 ~ -288
+/locate
+/locate structure pruebatfg:prueba
+/tp @s 1000 100 1000
+/locate structure pruebatfg:prueba
+/tp @s 720 ~ 96
+/locate structure pruebatfg:prueba
+/tp @s 1000 100 -1000
+/locate structure pruebatfg:prueba
+/tp @s 592 ~ -608
+/locate structure pruebatfg:prueba
+/tp @s -64 ~ 16
+/tp 1000 40 1000
+/locate structure pruebatfg:prueba
+/tp @s 736 ~ 896
+/locate structure pruebatfg:prueba
+/tp @s -784 ~ -928
+/tp 0 40 0
+/locate structure pruebatfg:prueba
+/tp @s -944 ~ 576
+/locate structure pruebatfg:prueba
+/tp @s -368 ~ -304
+/gamemode
+/gamemode spectator
+/locate structure pruebatfg:prueba
+/tp @s -224 ~ 160
+/locate structure pruebatfg:prueba
+/tp @s -48 ~ -224
+/gamerule doDaylightCycle false
 /time set day
 /locate structure pruebatfg:prueba
-/tp @s -80 ~ 112
+/tp @s 272 ~ 736
 /locate structure pruebatfg:prueba
-/tp @s -128 ~ 112
+/tp @s -64 ~ -64
+/tp 1000 40 1000
+/gamemode spectator
 /locate structure pruebatfg:prueba
-/tp 1000 100 1000
+/tp @s 992 ~ 960
 /locate structure pruebatfg:prueba
-/tp @s 720 ~ 752
-/kill @e
-/advancement grant @a everything
-/kill
-/gamemode creative
-/gamemode survival
-/gamemode creative
-/kill
-/gamemode survival
-/gamemode creative
-/gamemode survival
+/tp @s 176 ~ -240
+/gamemode spectator
+/locate structure pruebatfg:prueba
+/tp @s 496 ~ -304
+/locate structure pruebatfg:prueba
+/tp @s 32 ~ -64
+/locate structure pruebatfg:prueba
+/tp @s 96 ~ 176
