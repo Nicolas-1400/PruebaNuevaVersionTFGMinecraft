@@ -1,0 +1,87 @@
+{
+  "pruebatfg:recipes/rare_armor_leggings_recipe": {
+    "criteria": {
+      "has_ingredient_0": "2025-10-01 11:08:54 +0200"
+    },
+    "done": true
+  },
+  "pruebatfg:recipes/rare_armor_boots_recipe": {
+    "criteria": {
+      "has_ingredient_0": "2025-10-01 11:08:54 +0200"
+    },
+    "done": true
+  },
+  "pruebatfg:logro_armadura_extrana": {
+    "criteria": {
+      "logro_armadura_extrana_0": "2025-10-01 11:09:08 +0200"
+    },
+    "done": true
+  },
+  "pruebatfg:recipes/rare_hoe_recipe": {
+    "criteria": {
+      "has_ingredient_0": "2025-10-01 11:08:54 +0200"
+    },
+    "done": true
+  },
+  "pruebatfg:recipes/rare_armor_helmet_recipe": {
+    "criteria": {
+      "has_ingredient_0": "2025-10-01 11:08:54 +0200"
+    },
+    "done": true
+  },
+  "pruebatfg:logro_material_rare": {
+    "criteria": {
+      "logro_material_rare_0": "2025-10-01 11:08:54 +0200"
+    },
+    "done": true
+  },
+  "pruebatfg:recipes/rare_ore_block_recipe": {
+    "criteria": {
+      "has_ingredient_0": "2025-10-01 11:08:54 +0200"
+    },
+    "done": true
+  },
+  "pruebatfg:recipes/rare_sword_recipe": {
+    "criteria": {
+      "has_ingredient_0": "2025-10-01 11:08:54 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-10-01 11:08:45 +0200"
+    },
+    "done": true
+  },
+  "pruebatfg:recipes/rare_shovel_recipe": {
+    "criteria": {
+      "has_ingredient_0": "2025-10-01 11:08:54 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:snowy_plains": "2025-10-01 11:08:46 +0200"
+    },
+    "done": false
+  },
+  "pruebatfg:recipes/rare_axe_recipe": {
+    "criteria": {
+      "has_ingredient_0": "2025-10-01 11:08:54 +0200"
+    },
+    "done": true
+  },
+  "pruebatfg:recipes/rare_armor_chestplate_recipe": {
+    "criteria": {
+      "has_ingredient_0": "2025-10-01 11:08:54 +0200"
+    },
+    "done": true
+  },
+  "pruebatfg:recipes/rare_pickaxe_recipe": {
+    "criteria": {
+      "has_ingredient_0": "2025-10-01 11:08:54 +0200"
+    },
+    "done": true
+  },
+  "DataVersion": 4189
+}

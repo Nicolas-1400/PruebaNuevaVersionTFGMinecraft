@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "pruebatfg:rare_armor_chestplate"
+    },
+    "title": {
+      "translate": "advancements.logro_armadura_extrana.title"
+    },
+    "description": {
+      "translate": "advancements.logro_armadura_extrana.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "logro_armadura_extrana_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "pruebatfg:logro_material_rare"
+}
