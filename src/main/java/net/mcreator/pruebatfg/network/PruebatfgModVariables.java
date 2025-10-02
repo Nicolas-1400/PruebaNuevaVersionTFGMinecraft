@@ -11,6 +11,7 @@ import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.bus.api.SubscribeEvent;
 
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.resources.ResourceLocation;
@@ -61,6 +62,7 @@ public class PruebatfgModVariables {
 			PlayerVariables original = event.getOriginal().getData(PLAYER_VARIABLES);
 			PlayerVariables clone = new PlayerVariables();
 			clone.LogroRareArmorCompletado = original.LogroRareArmorCompletado;
+			clone.Player = original.Player;
 			if (!event.isWasDeath()) {
 			}
 			event.getEntity().setData(PLAYER_VARIABLES, clone);
@@ -69,17 +71,20 @@ public class PruebatfgModVariables {
 
 	public static class PlayerVariables implements INBTSerializable<CompoundTag> {
 		public boolean LogroRareArmorCompletado = false;
+		public boolean Player = false;
 
 		@Override
 		public CompoundTag serializeNBT(HolderLookup.Provider lookupProvider) {
 			CompoundTag nbt = new CompoundTag();
 			nbt.putBoolean("LogroRareArmorCompletado", LogroRareArmorCompletado);
+			nbt.putBoolean("Player", Player);
 			return nbt;
 		}
 
 		@Override
 		public void deserializeNBT(HolderLookup.Provider lookupProvider, CompoundTag nbt) {
 			LogroRareArmorCompletado = nbt.getBoolean("LogroRareArmorCompletado");
+			Player = nbt.getBoolean("Player");
 		}
 
 		public void syncPlayerVariables(Entity entity) {
