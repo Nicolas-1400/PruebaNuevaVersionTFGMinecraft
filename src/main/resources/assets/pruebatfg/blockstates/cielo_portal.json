@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "pruebatfg:block/cielo_portal_ew"
+    },
+    "axis=x": {
+      "model": "pruebatfg:block/cielo_portal_ns"
+    }
+  }
+}

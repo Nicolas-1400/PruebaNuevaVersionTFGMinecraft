@@ -419,6 +419,10 @@
       "metadata": {
         "dependencies": [
           {
+            "name": "damagesource",
+            "type": "damagesource"
+          },
+          {
             "name": "entity",
             "type": "entity"
           },
@@ -431,11 +435,33 @@
           "src/main/java/net/mcreator/pruebatfg/procedures/PSaitamaProcedure.java"
         ]
       }
+    },
+    {
+      "name": "Nubes",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nubes",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pruebatfg/block/NubesBlock.java",
+          "src/main/resources/data/pruebatfg/loot_table/blocks/nubes.json",
+          "src/main/resources/assets/pruebatfg/blockstates/nubes.json",
+          "src/main/resources/assets/pruebatfg/models/block/nubes.json"
+        ]
+      },
+      "path": "~/Cielo"
     }
   ],
   "variable_elements": [
     {
       "name": "LogroRareArmorCompletado",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "Player",
       "type": "logic",
       "scope": "player_persistent",
       "value": "false"
@@ -528,7 +554,8 @@
       "advancements.logro_post_mortem.title": "Post Mortem",
       "advancements.logro_armadura_extrana.descr": "Equípate una armadura de rare al completo",
       "advancements.logro_armadura_extrana.title": "Una armadura extraña",
-      "enchantment.pruebatfg.saitama": "Saitama"
+      "enchantment.pruebatfg.saitama": "Saitama",
+      "item.pruebatfg.nubes": "Nubes"
     }
   },
   "metadata": {
@@ -544,7 +571,12 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Cielo",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "pruebatfg",

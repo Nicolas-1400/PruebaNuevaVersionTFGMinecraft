@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "pruebatfg:block/nube",
+    "up": "pruebatfg:block/nube",
+    "north": "pruebatfg:block/nube",
+    "east": "pruebatfg:block/nube",
+    "south": "pruebatfg:block/nube",
+    "west": "pruebatfg:block/nube",
+    "particle": "pruebatfg:block/nube"
+  },
+  "render_type": "translucent"
+}

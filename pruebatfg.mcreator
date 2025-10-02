@@ -435,6 +435,70 @@
           "src/main/java/net/mcreator/pruebatfg/procedures/PSaitamaProcedure.java"
         ]
       }
+    },
+    {
+      "name": "Nubes",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nubes",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pruebatfg/block/NubesBlock.java",
+          "src/main/resources/data/pruebatfg/loot_table/blocks/nubes.json",
+          "src/main/resources/assets/pruebatfg/blockstates/nubes.json",
+          "src/main/resources/assets/pruebatfg/models/block/nubes.json"
+        ]
+      },
+      "path": "~/Cielo"
+    },
+    {
+      "name": "BiomaCielo",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bioma_cielo",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/pruebatfg/worldgen/biome/bioma_cielo.json"
+        ]
+      },
+      "path": "~/Cielo"
+    },
+    {
+      "name": "Cielo",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cielo",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pruebatfg/world/dimension/CieloDimension.java",
+          "src/main/java/net/mcreator/pruebatfg/world/teleporter/CieloPortalShape.java",
+          "src/main/resources/data/pruebatfg/dimension_type/cielo.json",
+          "src/main/java/net/mcreator/pruebatfg/world/teleporter/CieloTeleporter.java",
+          "src/main/resources/assets/pruebatfg/models/block/cielo_portal_ew.json",
+          "src/main/resources/data/pruebatfg/dimension/cielo.json",
+          "src/main/resources/assets/pruebatfg/models/block/cielo_portal_ns.json",
+          "src/main/resources/assets/pruebatfg/blockstates/cielo_portal.json",
+          "src/main/java/net/mcreator/pruebatfg/block/CieloPortalBlock.java"
+        ]
+      },
+      "path": "~/Cielo"
+    },
+    {
+      "name": "FaltaElProcedureParaActivarElPortal",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "falta_el_procedure_para_activar_el_portal",
+      "metadata": {
+        "dependencies": [],
+        "files": [
+          "src/main/java/net/mcreator/pruebatfg/procedures/FaltaElProcedureParaActivarElPortalProcedure.java"
+        ]
+      },
+      "path": "~/Cielo"
     }
   ],
   "variable_elements": [
@@ -514,6 +578,9 @@
     ],
     "ENCHANTMENTS:minecraft:non_treasure": [
       "~CUSTOM:Saitama"
+    ],
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~CUSTOM:Nubes"
     ]
   },
   "tab_element_order": {},
@@ -538,7 +605,9 @@
       "advancements.logro_post_mortem.title": "Post Mortem",
       "advancements.logro_armadura_extrana.descr": "Equípate una armadura de rare al completo",
       "advancements.logro_armadura_extrana.title": "Una armadura extraña",
-      "enchantment.pruebatfg.saitama": "Saitama"
+      "enchantment.pruebatfg.saitama": "Saitama",
+      "item.pruebatfg.nubes": "Nubes",
+      "biome.pruebatfg.bioma_cielo": "Cielo"
     }
   },
   "metadata": {
@@ -554,7 +623,12 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Cielo",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "pruebatfg",
