@@ -1,0 +1,11 @@
+{
+  "_fv": 79,
+  "_type": "tab",
+  "definition": {
+    "name": "Mod Cielo",
+    "icon": {
+      "value": "CUSTOM:PiedraLuminosaBendita"
+    },
+    "showSearch": true
+  }
+}

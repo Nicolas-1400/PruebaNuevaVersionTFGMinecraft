@@ -19,6 +19,7 @@ import net.mcreator.pruebatfg.item.RareHoeItem;
 import net.mcreator.pruebatfg.item.RareAxeItem;
 import net.mcreator.pruebatfg.item.RareArmorItem;
 import net.mcreator.pruebatfg.item.PepitaItem;
+import net.mcreator.pruebatfg.item.CieloItem;
 import net.mcreator.pruebatfg.PruebatfgMod;
 
 import java.util.function.Function;
@@ -38,6 +39,9 @@ public class PruebatfgModItems {
 	public static final DeferredItem<Item> RARE_ARMOR_LEGGINGS = register("rare_armor_leggings", RareArmorItem.Leggings::new);
 	public static final DeferredItem<Item> RARE_ARMOR_BOOTS = register("rare_armor_boots", RareArmorItem.Boots::new);
 	public static final DeferredItem<Item> PEPITA = register("pepita", PepitaItem::new);
+	public static final DeferredItem<Item> NUBES = block(PruebatfgModBlocks.NUBES);
+	public static final DeferredItem<Item> CIELO = register("cielo", CieloItem::new);
+	public static final DeferredItem<Item> PIEDRA_LUMINOSA_BENDITA = block(PruebatfgModBlocks.PIEDRA_LUMINOSA_BENDITA);
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -42,7 +42,7 @@
     "maxMonsterSpawnLightLimit": 0,
     "monsterSpawnBlockLightLimit": 0,
     "portalFrame": {
-      "value": "Blocks.GLOWSTONE"
+      "value": "CUSTOM:PiedraLuminosaBendita"
     },
     "portalParticles": {
       "value": "WATER_DROP"
@@ -51,18 +51,18 @@
     "portalSound": {
       "value": "block.portal.ambient"
     },
-    "enableIgniter": false,
-    "igniterName": "Cielo Portal Igniter",
-    "igniterRarity": "COMMON",
+    "enableIgniter": true,
+    "igniterName": "Agua Bendita",
+    "igniterRarity": "EPIC",
     "specialInformation": {
       "fixedValue": []
     },
     "creativeTabs": [
       {
-        "value": "TOOLS"
+        "value": "CUSTOM:ModCielo"
       }
     ],
-    "texture": "",
+    "texture": "aguabedita",
     "portalTexture": "minecraft:water_flow",
     "enablePortal": true
   }

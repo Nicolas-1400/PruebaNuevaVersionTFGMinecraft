@@ -11,7 +11,7 @@
   "item.pruebatfg.rare_armor_leggings": "Rare Leggings",
   "item.pruebatfg.rare_armor_boots": "Rare Boots",
   "item.pruebatfg.rare_armor_chestplate": "Rare Chestplate",
-  "item.pruebatfg.pepita": "Pepita",
+  "item.pruebatfg.pepita": "Rare en bruto",
   "advancements.logro_material_rare.descr": "Consigue un lingote de Rare",
   "advancements.logro_material_rare.title": "Un nuevo material",
   "advancements.logro_post_mortem.descr": "Reaparece",
@@ -20,5 +20,8 @@
   "advancements.logro_armadura_extrana.title": "Una armadura extraña",
   "enchantment.pruebatfg.saitama": "Saitama",
   "item.pruebatfg.nubes": "Nubes",
-  "biome.pruebatfg.bioma_cielo": "Cielo"
+  "biome.pruebatfg.bioma_cielo": "Cielo",
+  "item.pruebatfg.piedra_luminosa_bendita": "Piedra Luminosa Bendita",
+  "item_group.pruebatfg.mod_cielo": "Mod Cielo",
+  "item.pruebatfg.cielo": "Agua Bendita"
 }

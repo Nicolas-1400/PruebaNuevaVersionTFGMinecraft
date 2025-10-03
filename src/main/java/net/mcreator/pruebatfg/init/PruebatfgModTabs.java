@@ -4,12 +4,15 @@
 package net.mcreator.pruebatfg.init;
 
 import net.neoforged.neoforge.registries.DeferredRegister;
+import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.bus.api.SubscribeEvent;
 
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.network.chat.Component;
 import net.minecraft.core.registries.Registries;
 
 import net.mcreator.pruebatfg.PruebatfgMod;
@@ -17,6 +20,12 @@ import net.mcreator.pruebatfg.PruebatfgMod;
 @EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD)
 public class PruebatfgModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, PruebatfgMod.MODID);
+	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> MOD_CIELO = REGISTRY.register("mod_cielo",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.pruebatfg.mod_cielo")).icon(() -> new ItemStack(PruebatfgModBlocks.PIEDRA_LUMINOSA_BENDITA.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(PruebatfgModBlocks.NUBES.get().asItem());
+				tabData.accept(PruebatfgModItems.CIELO.get());
+				tabData.accept(PruebatfgModBlocks.PIEDRA_LUMINOSA_BENDITA.get().asItem());
+			}).withSearchBar().build());
 
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {

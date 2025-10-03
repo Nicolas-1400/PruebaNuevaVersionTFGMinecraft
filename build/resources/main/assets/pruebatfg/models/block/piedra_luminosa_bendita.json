@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minecraft:block/glowstone",
+    "up": "minecraft:block/glowstone",
+    "north": "minecraft:block/glowstone",
+    "east": "minecraft:block/glowstone",
+    "south": "minecraft:block/glowstone",
+    "west": "minecraft:block/glowstone",
+    "particle": "minecraft:block/glowstone"
+  },
+  "render_type": "solid"
+}

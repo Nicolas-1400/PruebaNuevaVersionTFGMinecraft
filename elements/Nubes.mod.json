@@ -15,7 +15,7 @@
     "emissiveRendering": false,
     "displayFluidOverlay": true,
     "animations": [],
-    "itemTexture": "minecraft:wind_charge",
+    "itemTexture": "",
     "particleTexture": "",
     "blockSetType": "OAK",
     "tintType": "No tint",
@@ -44,11 +44,15 @@
     "resistance": 7.0,
     "hasGravity": false,
     "isWaterloggable": false,
-    "hasBlockItem": false,
+    "hasBlockItem": true,
     "maxStackSize": 64,
     "rarity": "COMMON",
     "immuneToFire": false,
-    "creativeTabs": [],
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:ModCielo"
+      }
+    ],
     "destroyTool": "Not specified",
     "customDrop": {
       "value": ""
@@ -80,7 +84,7 @@
     "isLadder": false,
     "slipperiness": 0.6,
     "speedFactor": 0.5,
-    "jumpFactor": 0.5,
+    "jumpFactor": 1.0,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "isCustomSoundType": false,
