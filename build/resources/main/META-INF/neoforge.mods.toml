@@ -13,6 +13,8 @@ authors="MCreator"
 # Start of user code block mod configuration
 # End of user code block mod configuration
 
+[[mixins]]
+    config = "pruebatfg.mixins.json"
 
 # Start of user code block custom mixins
 # End of user code block custom mixins

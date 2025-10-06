@@ -1,8 +1,8 @@
 {
   "parent": "block/fence_side",
   "textures": {
-    "texture": "pruebatfg:block/rare_planks",
-    "particle": "pruebatfg:block/rare_planks"
+    "texture": "pruebatfg:block/red_planks",
+    "particle": "pruebatfg:block/red_planks"
   },
   "render_type": "solid"
 }

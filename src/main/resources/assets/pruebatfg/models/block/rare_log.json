@@ -1,13 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "pruebatfg:block/rare_log_top",
-    "up": "pruebatfg:block/rare_log_top",
-    "north": "pruebatfg:block/rare_log_side",
-    "east": "pruebatfg:block/rare_log_side",
-    "south": "pruebatfg:block/rare_log_side",
-    "west": "pruebatfg:block/rare_log_side",
-    "particle": "pruebatfg:block/rare_log_top"
+    "down": "pruebatfg:block/rare_log_int",
+    "up": "pruebatfg:block/rare_log_int",
+    "north": "pruebatfg:block/rare_log",
+    "east": "pruebatfg:block/rare_log",
+    "south": "pruebatfg:block/rare_log",
+    "west": "pruebatfg:block/rare_log",
+    "particle": "pruebatfg:block/rare_log_int"
   },
   "render_type": "solid"
 }

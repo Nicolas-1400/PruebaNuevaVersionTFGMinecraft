@@ -21,5 +21,9 @@
   "item.pruebatfg.rare_fence": "Rare Fence",
   "item.pruebatfg.rare_fence_gate": "Rare Fence Gate",
   "item.pruebatfg.rare_pressure_plate": "Rare Pressure Plate",
-  "item.pruebatfg.rare_button": "Rare Button"
+  "item.pruebatfg.rare_button": "Rare Button",
+  "item.pruebatfg.rare_grass": "Rare Grass",
+  "item.pruebatfg.rare_dirt": "Rare Dirt",
+  "biome.pruebatfg.rare_bioma": "Rare Bioma",
+  "biome.pruebatfg.rare_biom": "Rare Biom"
 }

@@ -1,0 +1,243 @@
+{
+  "minecraft:recipes/building_blocks/stone_bricks": {
+    "criteria": {
+      "has_stone": "2025-10-03 10:44:53 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-10-03 10:44:53 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/mangrove_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-10-03 10:47:40 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_stairs_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-10-03 10:44:53 +0200"
+    },
+    "done": true
+  },
+  "pruebatfg:recipes/rare_wood_recipe": {
+    "criteria": {
+      "has_ingredient_0": "2025-10-03 10:37:18 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mangrove_fence": {
+    "criteria": {
+      "has_planks": "2025-10-03 10:47:40 +0200"
+    },
+    "done": true
+  },
+  "pruebatfg:recipes/rare_planks_recipe": {
+    "criteria": {
+      "has_ingredient_0": "2025-10-03 10:37:18 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_slab_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-10-03 10:44:53 +0200"
+    },
+    "done": true
+  },
+  "pruebatfg:recipes/rare_slab_recipe": {
+    "criteria": {
+      "has_ingredient_0": "2025-10-03 10:37:21 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/charcoal": {
+    "criteria": {
+      "has_log": "2025-10-03 10:37:18 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mangrove_stairs": {
+    "criteria": {
+      "has_planks": "2025-10-03 10:47:40 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_bricks_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-10-03 10:44:53 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_slab": {
+    "criteria": {
+      "has_stone": "2025-10-03 10:44:53 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/mangrove_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-10-03 10:47:40 +0200"
+    },
+    "done": true
+  },
+  "pruebatfg:recipes/rare_pressure_plate_recipe": {
+    "criteria": {
+      "has_ingredient_0": "2025-10-03 10:37:21 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/mangrove_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-10-03 10:47:40 +0200"
+    },
+    "done": true
+  },
+  "pruebatfg:recipes/rare_button_recipe": {
+    "criteria": {
+      "has_ingredient_0": "2025-10-03 10:37:21 +0200"
+    },
+    "done": true
+  },
+  "pruebatfg:recipes/rare_block_ore_recipe": {
+    "criteria": {
+      "has_ingredient_0": "2025-10-03 10:37:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-10-03 10:36:50 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2025-10-03 10:44:53 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks_stone_from_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-10-03 10:44:53 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mangrove_sign": {
+    "criteria": {
+      "has_planks": "2025-10-03 10:47:40 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick": {
+    "criteria": {
+      "has_planks": "2025-10-03 10:37:21 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_stairs_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-10-03 10:44:53 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/mangrove_button": {
+    "criteria": {
+      "has_planks": "2025-10-03 10:47:40 +0200"
+    },
+    "done": true
+  },
+  "pruebatfg:recipes/rare_fence_gate_recipe": {
+    "criteria": {
+      "has_ingredient_0": "2025-10-03 10:37:21 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/mangrove_door": {
+    "criteria": {
+      "has_planks": "2025-10-03 10:47:40 +0200"
+    },
+    "done": true
+  },
+  "pruebatfg:recipes/rare_fence_recipe": {
+    "criteria": {
+      "has_ingredient_0": "2025-10-03 10:37:21 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_planks": {
+    "criteria": {
+      "has_logs": "2025-10-03 10:49:24 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/stone_button": {
+    "criteria": {
+      "has_stone": "2025-10-03 10:44:53 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stonecutter": {
+    "criteria": {
+      "has_stone": "2025-10-03 10:44:53 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2025-10-03 10:36:51 +0200"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/barrel": {
+    "criteria": {
+      "has_planks": "2025-10-03 10:37:21 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/stone_pressure_plate": {
+    "criteria": {
+      "has_stone": "2025-10-03 10:44:53 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_stone": {
+    "criteria": {
+      "has_stone": "2025-10-03 10:44:53 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mangrove_slab": {
+    "criteria": {
+      "has_planks": "2025-10-03 10:47:40 +0200"
+    },
+    "done": true
+  },
+  "pruebatfg:recipes/rare_stairs_recipe": {
+    "criteria": {
+      "has_ingredient_0": "2025-10-03 10:37:21 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_wood": {
+    "criteria": {
+      "has_log": "2025-10-03 10:49:24 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stone_brick_walls_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-10-03 10:44:53 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_stairs": {
+    "criteria": {
+      "has_stone": "2025-10-03 10:44:53 +0200"
+    },
+    "done": true
+  },
+  "DataVersion": 4189
+}

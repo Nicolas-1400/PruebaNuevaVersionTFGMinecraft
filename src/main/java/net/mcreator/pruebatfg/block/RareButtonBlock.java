@@ -12,7 +12,7 @@ import net.minecraft.core.BlockPos;
 
 public class RareButtonBlock extends ButtonBlock {
 	public RareButtonBlock(BlockBehaviour.Properties properties) {
-		super(BlockSetType.OAK, 30, properties.sound(SoundType.WOOD).strength(2f, 3f).noCollission().pushReaction(PushReaction.DESTROY));
+		super(BlockSetType.OAK, 30, properties.sound(SoundType.WOOD).strength(2f, 3f).pushReaction(PushReaction.DESTROY));
 	}
 
 	@Override

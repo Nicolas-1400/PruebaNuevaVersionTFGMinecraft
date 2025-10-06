@@ -6,7 +6,7 @@ entityDistanceScaling:1.0
 entityShadows:true
 forceUnicodeFont:false
 japaneseGlyphVariants:false
-fov:1.0
+fov:0.325
 fovEffectScale:1.0
 darknessEffectScale:1.0
 glintSpeed:0.5
@@ -54,7 +54,7 @@ narratorHotkey:true
 resourcePacks:[]
 incompatibleResourcePacks:[]
 lastServer:localhost:25463
-lang:en_us
+lang:es_es
 chatVisibility:0
 chatOpacity:1.0
 chatLineSpacing:0.0

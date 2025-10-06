@@ -1,6 +1,5 @@
 package net.mcreator.pruebatfg.block;
 
-import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
@@ -11,7 +10,7 @@ import net.minecraft.core.BlockPos;
 
 public class RarePlanksBlock extends Block {
 	public RarePlanksBlock(BlockBehaviour.Properties properties) {
-		super(properties.sound(SoundType.WOOD).strength(2f, 3f).ignitedByLava().instrument(NoteBlockInstrument.HARP));
+		super(properties.sound(SoundType.WOOD).strength(2f, 3f).ignitedByLava());
 	}
 
 	@Override

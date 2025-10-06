@@ -13,3 +13,7 @@
 /kill @e
 /advancement grant @a everything
 /kill
+/give @p struc
+/give @p minecraft:structure_block
+/give @p minecraft:structure_void
+/time set day

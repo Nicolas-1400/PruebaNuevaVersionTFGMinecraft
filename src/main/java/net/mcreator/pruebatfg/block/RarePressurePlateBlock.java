@@ -1,7 +1,6 @@
 package net.mcreator.pruebatfg.block;
 
 import net.minecraft.world.level.material.PushReaction;
-import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.block.state.properties.BlockSetType;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -13,7 +12,7 @@ import net.minecraft.core.BlockPos;
 
 public class RarePressurePlateBlock extends PressurePlateBlock {
 	public RarePressurePlateBlock(BlockBehaviour.Properties properties) {
-		super(BlockSetType.OAK, properties.sound(SoundType.WOOD).strength(2f, 3f).noCollission().pushReaction(PushReaction.DESTROY).ignitedByLava().instrument(NoteBlockInstrument.HARP).forceSolidOn());
+		super(BlockSetType.OAK, properties.sound(SoundType.WOOD).strength(2f, 3f).pushReaction(PushReaction.DESTROY).ignitedByLava().forceSolidOn());
 	}
 
 	@Override

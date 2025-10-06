@@ -17,8 +17,10 @@ import net.mcreator.pruebatfg.block.RarePlanksBlock;
 import net.mcreator.pruebatfg.block.RareOreBlock;
 import net.mcreator.pruebatfg.block.RareLogBlock;
 import net.mcreator.pruebatfg.block.RareLeavesBlock;
+import net.mcreator.pruebatfg.block.RareGrassBlock;
 import net.mcreator.pruebatfg.block.RareFenceGateBlock;
 import net.mcreator.pruebatfg.block.RareFenceBlock;
+import net.mcreator.pruebatfg.block.RareDirtBlock;
 import net.mcreator.pruebatfg.block.RareButtonBlock;
 import net.mcreator.pruebatfg.block.RareBlockBlock;
 import net.mcreator.pruebatfg.PruebatfgMod;
@@ -39,6 +41,8 @@ public class PruebatfgModBlocks {
 	public static final DeferredBlock<Block> RARE_FENCE_GATE = register("rare_fence_gate", RareFenceGateBlock::new);
 	public static final DeferredBlock<Block> RARE_PRESSURE_PLATE = register("rare_pressure_plate", RarePressurePlateBlock::new);
 	public static final DeferredBlock<Block> RARE_BUTTON = register("rare_button", RareButtonBlock::new);
+	public static final DeferredBlock<Block> RARE_GRASS = register("rare_grass", RareGrassBlock::new);
+	public static final DeferredBlock<Block> RARE_DIRT = register("rare_dirt", RareDirtBlock::new);
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

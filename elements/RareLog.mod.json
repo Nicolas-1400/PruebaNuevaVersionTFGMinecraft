@@ -2,12 +2,12 @@
   "_fv": 79,
   "_type": "block",
   "definition": {
-    "texture": "rare_log_top",
-    "textureTop": "rare_log_top",
-    "textureLeft": "rare_log_side",
-    "textureFront": "rare_log_side",
-    "textureRight": "rare_log_side",
-    "textureBack": "rare_log_side",
+    "texture": "rare_log_int",
+    "textureTop": "rare_log_int",
+    "textureLeft": "rare_log",
+    "textureFront": "rare_log",
+    "textureRight": "rare_log",
+    "textureBack": "rare_log",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 5,
@@ -59,7 +59,7 @@
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
-    "requiresCorrectTool": false,
+    "requiresCorrectTool": true,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canRedstoneConnect": false,
@@ -72,7 +72,7 @@
       "fixedValue": 15.0
     },
     "colorOnMap": "DEFAULT",
-    "noteBlockInstrument": "BASS",
+    "noteBlockInstrument": "harp",
     "creativePickItem": {
       "value": ""
     },

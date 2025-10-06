@@ -1,0 +1,13 @@
+{
+  "type": "pruebatfg:structure_feature",
+  "config": {
+    "structure": "pruebatfg:pira",
+    "random_rotation": true,
+    "ignored_blocks": "minecraft:air",
+    "offset": [
+      -5,
+      0,
+      -5
+    ]
+  }
+}

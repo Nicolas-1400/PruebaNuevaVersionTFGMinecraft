@@ -1,0 +1,126 @@
+{
+  "_fv": 79,
+  "_type": "biome",
+  "definition": {
+    "name": "Rare Bioma",
+    "groundBlock": {
+      "value": "CUSTOM:RareGrass"
+    },
+    "undergroundBlock": {
+      "value": "CUSTOM:RareDirt"
+    },
+    "underwaterBlock": {
+      "value": "Blocks.GRAVEL"
+    },
+    "airColor": {
+      "value": -442463,
+      "falpha": 0.0
+    },
+    "fogColor": {
+      "value": -7266985,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -7266985,
+      "falpha": 0.0
+    },
+    "foliageColor": {
+      "value": -7266985,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -9371443,
+      "falpha": 0.0
+    },
+    "waterFogColor": {
+      "value": -11623072,
+      "falpha": 0.0
+    },
+    "ambientSound": {
+      "value": ""
+    },
+    "additionsSound": {
+      "value": ""
+    },
+    "music": {
+      "value": ""
+    },
+    "moodSound": {
+      "value": ""
+    },
+    "moodSoundDelay": 6000,
+    "spawnParticles": true,
+    "particleToSpawn": {
+      "value": "FIREWORKS_SPARK"
+    },
+    "particlesProbability": 2.0,
+    "rainingPossibility": 0.5,
+    "temperature": 1.4,
+    "spawnBiome": true,
+    "spawnInCaves": false,
+    "spawnBiomeNether": false,
+    "genTemperature": {
+      "min": -1.0,
+      "max": 1.0
+    },
+    "genHumidity": {
+      "min": -1.0,
+      "max": 1.0
+    },
+    "genContinentalness": {
+      "min": -1.0,
+      "max": 1.0
+    },
+    "genErosion": {
+      "min": -1.0,
+      "max": 1.0
+    },
+    "genWeirdness": {
+      "min": -1.0,
+      "max": 1.0
+    },
+    "treesPerChunk": 4,
+    "vanillaTreeType": "Mega pine trees",
+    "treeType": 1,
+    "minHeight": 9,
+    "treeStem": {
+      "value": "CUSTOM:RareLog"
+    },
+    "treeBranch": {
+      "value": "CUSTOM:RareLeaves"
+    },
+    "treeVines": {
+      "value": ""
+    },
+    "treeFruits": {
+      "value": "Blocks.SWEET_BERRY_BUSH"
+    },
+    "defaultFeatures": [
+      "Caves",
+      "Ores",
+      "MonsterRooms",
+      "AmethystGeodes"
+    ],
+    "spawnStronghold": false,
+    "spawnMineshaft": false,
+    "spawnMineshaftMesa": false,
+    "spawnPillagerOutpost": false,
+    "villageType": "plains",
+    "spawnWoodlandMansion": false,
+    "spawnJungleTemple": false,
+    "spawnDesertPyramid": false,
+    "spawnSwampHut": false,
+    "spawnIgloo": false,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": false,
+    "spawnShipwreckBeached": false,
+    "spawnBuriedTreasure": false,
+    "oceanRuinType": "NONE",
+    "spawnNetherBridge": false,
+    "spawnNetherFossil": false,
+    "spawnBastionRemnant": false,
+    "spawnEndCity": false,
+    "spawnRuinedPortal": "NONE",
+    "spawnEntries": []
+  }
+}

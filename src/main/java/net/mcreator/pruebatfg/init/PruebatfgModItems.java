@@ -48,6 +48,8 @@ public class PruebatfgModItems {
 	public static final DeferredItem<Item> RARE_FENCE_GATE = block(PruebatfgModBlocks.RARE_FENCE_GATE);
 	public static final DeferredItem<Item> RARE_PRESSURE_PLATE = block(PruebatfgModBlocks.RARE_PRESSURE_PLATE);
 	public static final DeferredItem<Item> RARE_BUTTON = block(PruebatfgModBlocks.RARE_BUTTON);
+	public static final DeferredItem<Item> RARE_GRASS = block(PruebatfgModBlocks.RARE_GRASS);
+	public static final DeferredItem<Item> RARE_DIRT = block(PruebatfgModBlocks.RARE_DIRT);
 
 	// Start of user code block custom items
 	// End of user code block custom items

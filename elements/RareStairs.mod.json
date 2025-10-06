@@ -2,10 +2,10 @@
   "_fv": 79,
   "_type": "block",
   "definition": {
-    "texture": "rare_planks",
-    "textureTop": "rare_planks",
+    "texture": "red_planks",
+    "textureTop": "",
     "textureLeft": "",
-    "textureFront": "rare_planks",
+    "textureFront": "",
     "textureRight": "",
     "textureBack": "",
     "renderType": 10,
@@ -73,7 +73,7 @@
       "fixedValue": 15.0
     },
     "colorOnMap": "DEFAULT",
-    "noteBlockInstrument": "BASS",
+    "noteBlockInstrument": "harp",
     "creativePickItem": {
       "value": ""
     },

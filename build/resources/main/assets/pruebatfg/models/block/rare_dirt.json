@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "pruebatfg:block/bottom_grass",
+    "up": "pruebatfg:block/bottom_grass",
+    "north": "pruebatfg:block/bottom_grass",
+    "east": "pruebatfg:block/bottom_grass",
+    "south": "pruebatfg:block/bottom_grass",
+    "west": "pruebatfg:block/bottom_grass",
+    "particle": "pruebatfg:block/bottom_grass"
+  },
+  "render_type": "solid"
+}

@@ -1,7 +1,6 @@
 package net.mcreator.pruebatfg.block;
 
 import net.minecraft.world.level.block.state.properties.WoodType;
-import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
@@ -12,7 +11,7 @@ import net.minecraft.core.BlockPos;
 
 public class RareFenceGateBlock extends FenceGateBlock {
 	public RareFenceGateBlock(BlockBehaviour.Properties properties) {
-		super(WoodType.OAK, properties.sound(SoundType.WOOD).strength(2f, 3f).ignitedByLava().instrument(NoteBlockInstrument.HARP).forceSolidOn());
+		super(WoodType.OAK, properties.sound(SoundType.WOOD).strength(2f, 3f).ignitedByLava().forceSolidOn());
 	}
 
 	@Override
