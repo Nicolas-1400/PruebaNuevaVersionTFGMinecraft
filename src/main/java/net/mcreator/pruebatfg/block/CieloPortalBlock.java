@@ -179,7 +179,7 @@ public class CieloPortalBlock extends NetherPortalBlock {
 				pz = pos.getZ() + 0.5 + 0.25 * j;
 				vz = random.nextFloat() * 2 * j;
 			}
-			world.addParticle(ParticleTypes.FALLING_WATER, px, py, pz, vx, vy, vz);
+			world.addParticle(ParticleTypes.PORTAL, px, py, pz, vx, vy, vz);
 		}
 		if (random.nextInt(110) == 0)
 			world.playLocalSound(pos.getX() + 0.5, pos.getY() + 0.5, pos.getZ() + 0.5, BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("block.portal.ambient")), SoundSource.BLOCKS, 0.5f, random.nextFloat() * 0.4f + 0.8f, false);

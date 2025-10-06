@@ -23,5 +23,7 @@
   "biome.pruebatfg.bioma_cielo": "Cielo",
   "item.pruebatfg.piedra_luminosa_bendita": "Piedra Luminosa Bendita",
   "item_group.pruebatfg.mod_cielo": "Mod Cielo",
-  "item.pruebatfg.cielo": "Cielo Portal Igniter"
+  "item.pruebatfg.cielo": "Agua Bendita",
+  "advancements.plus_plus_ultra.descr": "Entra en el cielo",
+  "advancements.plus_plus_ultra.title": "Plus Plus Ultra"
 }

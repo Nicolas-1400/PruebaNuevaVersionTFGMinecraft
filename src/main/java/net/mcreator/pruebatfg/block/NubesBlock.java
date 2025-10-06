@@ -18,7 +18,7 @@ import net.minecraft.core.BlockPos;
 
 public class NubesBlock extends Block {
 	public NubesBlock(BlockBehaviour.Properties properties) {
-		super(properties.mapColor(MapColor.SNOW).sound(SoundType.SNOW).strength(1f, 7f).lightLevel(s -> 3).speedFactor(0.5f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
+		super(properties.mapColor(MapColor.SNOW).sound(SoundType.SNOW).strength(1f, 7f).lightLevel(s -> 3).speedFactor(0.7f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 	}
 
 	@Override

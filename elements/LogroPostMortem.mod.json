@@ -8,10 +8,10 @@
       "value": "Items.SKULL#0"
     },
     "background": "Default",
-    "disableDisplay": false,
+    "disableDisplay": true,
     "showPopup": true,
     "announceToChat": true,
-    "hideIfNotCompleted": false,
+    "hideIfNotCompleted": true,
     "rewardLoot": [],
     "rewardRecipes": [],
     "rewardXP": 0,

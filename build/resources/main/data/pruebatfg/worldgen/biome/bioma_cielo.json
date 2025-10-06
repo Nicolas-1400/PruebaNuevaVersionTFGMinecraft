@@ -1,7 +1,7 @@
 {
-  "has_precipitation": false,
-  "temperature": 0,
-  "downfall": 0,
+  "has_precipitation": true,
+  "temperature": 0.15,
+  "downfall": 1,
   "effects": {
     "particle": {
       "options": {

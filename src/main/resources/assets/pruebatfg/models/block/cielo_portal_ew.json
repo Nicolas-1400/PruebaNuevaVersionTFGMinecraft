@@ -1,7 +1,7 @@
 {
   "textures": {
-    "particle": "minecraft:block/water_flow",
-    "portal": "minecraft:block/water_flow"
+    "particle": "pruebatfg:block/portalagua",
+    "portal": "pruebatfg:block/portalagua"
   },
   "elements": [
     {

@@ -10,6 +10,7 @@ import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.pruebatfg.procedures.CieloPortalTriggerUsedProcedure;
 import net.mcreator.pruebatfg.block.CieloPortalBlock;
 
 public class CieloItem extends Item {
@@ -35,7 +36,9 @@ public class CieloItem extends Item {
 				itemstack.hurtAndBreak(1, entity, LivingEntity.getSlotForHand(context.getHand()));
 				success = true;
 			}
-			return success ? InteractionResult.SUCCESS : InteractionResult.FAIL;
+
+			CieloPortalTriggerUsedProcedure.execute(entity);
+			return InteractionResult.SUCCESS;
 		}
 	}
 }

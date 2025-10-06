@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "pruebatfg:cielo"
+    },
+    "title": {
+      "translate": "advancements.plus_plus_ultra.title"
+    },
+    "description": {
+      "translate": "advancements.plus_plus_ultra.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "plus_plus_ultra_0": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "pruebatfg:cielo"
+      }
+    }
+  },
+  "parent": "minecraft:story/enter_the_nether"
+}

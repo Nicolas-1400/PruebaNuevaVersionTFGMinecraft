@@ -45,7 +45,7 @@
       "value": "CUSTOM:PiedraLuminosaBendita"
     },
     "portalParticles": {
-      "value": "WATER_DROP"
+      "value": "PORTAL"
     },
     "portalLuminance": 0,
     "portalSound": {
@@ -63,7 +63,10 @@
       }
     ],
     "texture": "aguabedita",
-    "portalTexture": "minecraft:water_flow",
-    "enablePortal": true
+    "portalTexture": "portalagua",
+    "enablePortal": true,
+    "whenPortaTriggerlUsed": {
+      "name": "CieloPortalTriggerUsed"
+    }
   }
 }

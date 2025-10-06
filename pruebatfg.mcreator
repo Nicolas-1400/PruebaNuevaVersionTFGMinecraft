@@ -539,6 +539,36 @@
           "src/main/resources/data/pruebatfg/recipe/agua_bendita_recipie.json"
         ]
       }
+    },
+    {
+      "name": "CieloPortalTriggerUsed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cielo_portal_trigger_used",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/pruebatfg/procedures/CieloPortalTriggerUsedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "PlusPlusUltra",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plus_plus_ultra",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/pruebatfg/advancement/plus_plus_ultra.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -650,7 +680,9 @@
       "biome.pruebatfg.bioma_cielo": "Cielo",
       "item.pruebatfg.piedra_luminosa_bendita": "Piedra Luminosa Bendita",
       "item_group.pruebatfg.mod_cielo": "Mod Cielo",
-      "item.pruebatfg.cielo": "Agua Bendita"
+      "item.pruebatfg.cielo": "Agua Bendita",
+      "advancements.plus_plus_ultra.descr": "Entra en el cielo",
+      "advancements.plus_plus_ultra.title": "Plus Plus Ultra"
     }
   },
   "metadata": {
