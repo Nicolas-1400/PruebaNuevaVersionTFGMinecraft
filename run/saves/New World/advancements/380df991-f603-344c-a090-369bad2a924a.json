@@ -1,61 +1,57 @@
 {
-  "pruebatfg:recipes/agua_bendita_recipie": {
-    "criteria": {
-      "has_ingredient_0": "2025-10-06 10:39:58 +0200"
-    },
-    "done": true
-  },
   "minecraft:nether/explore_nether": {
     "criteria": {
-      "minecraft:nether_wastes": "2025-10-06 10:40:30 +0200"
+      "minecraft:crimson_forest": "2025-10-06 14:00:23 +0200",
+      "minecraft:nether_wastes": "2025-10-06 14:00:04 +0200",
+      "minecraft:warped_forest": "2025-10-06 14:00:01 +0200"
     },
     "done": false
   },
   "minecraft:nether/root": {
     "criteria": {
-      "entered_nether": "2025-10-06 10:40:30 +0200"
-    },
-    "done": true
-  },
-  "pruebatfg:plus_plus_ultra": {
-    "criteria": {
-      "plus_plus_ultra_0": "2025-10-06 10:40:57 +0200"
+      "entered_nether": "2025-10-06 14:00:01 +0200"
     },
     "done": true
   },
   "minecraft:recipes/tools/flint_and_steel": {
     "criteria": {
-      "has_obsidian": "2025-10-06 10:40:08 +0200"
+      "has_obsidian": "2025-10-06 13:59:44 +0200"
     },
     "done": true
   },
   "minecraft:story/enter_the_nether": {
     "criteria": {
-      "entered_nether": "2025-10-06 10:40:30 +0200"
+      "entered_nether": "2025-10-06 14:00:01 +0200"
     },
     "done": true
   },
   "minecraft:story/form_obsidian": {
     "criteria": {
-      "obsidian": "2025-10-06 10:40:08 +0200"
+      "obsidian": "2025-10-06 13:59:44 +0200"
     },
     "done": true
   },
   "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
-      "unlock_right_away": "2025-10-06 10:39:47 +0200"
+      "unlock_right_away": "2025-10-06 13:59:31 +0200"
     },
     "done": true
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:taiga": "2025-10-06 10:39:48 +0200"
+      "minecraft:old_growth_birch_forest": "2025-10-06 13:59:32 +0200"
     },
     "done": false
   },
   "minecraft:recipes/decorations/enchanting_table": {
     "criteria": {
-      "has_obsidian": "2025-10-06 10:40:08 +0200"
+      "has_obsidian": "2025-10-06 13:59:44 +0200"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "fortress": "2025-10-06 14:00:27 +0200"
     },
     "done": true
   },

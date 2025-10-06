@@ -25,5 +25,8 @@
   "item_group.pruebatfg.mod_cielo": "Mod Cielo",
   "item.pruebatfg.cielo": "Agua Bendita",
   "advancements.plus_plus_ultra.descr": "Entra en el cielo",
-  "advancements.plus_plus_ultra.title": "Plus Plus Ultra"
+  "advancements.plus_plus_ultra.title": "Plus Plus Ultra",
+  "item.pruebatfg.restos_magia_oscura": "Restos Magia Oscura",
+  "entity.pruebatfg.evocador_oscuro": "Evocador Oscuro",
+  "item.pruebatfg.evocador_oscuro_spawn_egg": "Evocador Oscuro Spawn Egg"
 }

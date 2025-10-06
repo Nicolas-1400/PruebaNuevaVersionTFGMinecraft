@@ -8,9 +8,11 @@ import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredHolder;
 
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.item.SpawnEggItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.pruebatfg.item.RestosMagiaOscuraItem;
 import net.mcreator.pruebatfg.item.RareSwordItem;
 import net.mcreator.pruebatfg.item.RareShovelItem;
 import net.mcreator.pruebatfg.item.RarePickaxeItem;
@@ -42,6 +44,8 @@ public class PruebatfgModItems {
 	public static final DeferredItem<Item> NUBES = block(PruebatfgModBlocks.NUBES);
 	public static final DeferredItem<Item> CIELO = register("cielo", CieloItem::new);
 	public static final DeferredItem<Item> PIEDRA_LUMINOSA_BENDITA = block(PruebatfgModBlocks.PIEDRA_LUMINOSA_BENDITA);
+	public static final DeferredItem<Item> RESTOS_MAGIA_OSCURA = register("restos_magia_oscura", RestosMagiaOscuraItem::new);
+	public static final DeferredItem<Item> EVOCADOR_OSCURO_SPAWN_EGG = register("evocador_oscuro_spawn_egg", properties -> new SpawnEggItem(PruebatfgModEntities.EVOCADOR_OSCURO.get(), properties));
 
 	// Start of user code block custom items
 	// End of user code block custom items

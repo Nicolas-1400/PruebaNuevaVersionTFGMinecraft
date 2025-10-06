@@ -1,0 +1,788 @@
+{
+  "mod_elements": [
+    {
+      "name": "RareIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pruebatfg/item/RareIngotItem.java",
+          "src/main/resources/assets/pruebatfg/items/rare_ingot.json",
+          "src/main/resources/assets/pruebatfg/models/item/rare_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "RareOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pruebatfg/models/block/rare_ore.json",
+          "src/main/resources/data/pruebatfg/worldgen/configured_feature/rare_ore.json",
+          "src/main/resources/data/pruebatfg/worldgen/placed_feature/rare_ore.json",
+          "src/main/resources/assets/pruebatfg/items/rare_ore.json",
+          "src/main/resources/data/pruebatfg/neoforge/biome_modifier/rare_ore_biome_modifier.json",
+          "src/main/resources/assets/pruebatfg/models/item/rare_ore.json",
+          "src/main/resources/data/pruebatfg/loot_table/blocks/rare_ore.json",
+          "src/main/resources/assets/pruebatfg/blockstates/rare_ore.json",
+          "src/main/java/net/mcreator/pruebatfg/block/RareOreBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "RareBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pruebatfg/models/item/rare_block.json",
+          "src/main/resources/assets/pruebatfg/items/rare_block.json",
+          "src/main/resources/assets/pruebatfg/blockstates/rare_block.json",
+          "src/main/resources/assets/pruebatfg/models/block/rare_block.json",
+          "src/main/resources/data/pruebatfg/loot_table/blocks/rare_block.json",
+          "src/main/java/net/mcreator/pruebatfg/block/RareBlockBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "RareOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/pruebatfg/recipe/rare_ore_block_recipe.json",
+          "src/main/resources/data/pruebatfg/advancement/recipes/rare_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RareBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/pruebatfg/recipe/rare_block_ore_recipe.json",
+          "src/main/resources/data/pruebatfg/advancement/recipes/rare_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RareOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/pruebatfg/advancement/recipes/rare_ore_smelting.json",
+          "src/main/resources/data/pruebatfg/recipe/rare_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "RarePickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pruebatfg/item/RarePickaxeItem.java",
+          "src/main/resources/assets/pruebatfg/models/item/rare_pickaxe.json",
+          "src/main/resources/assets/pruebatfg/items/rare_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "RareAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pruebatfg/items/rare_axe.json",
+          "src/main/resources/assets/pruebatfg/models/item/rare_axe.json",
+          "src/main/java/net/mcreator/pruebatfg/item/RareAxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RareSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pruebatfg/models/item/rare_sword.json",
+          "src/main/resources/assets/pruebatfg/items/rare_sword.json",
+          "src/main/java/net/mcreator/pruebatfg/item/RareSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RareShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pruebatfg/item/RareShovelItem.java",
+          "src/main/resources/assets/pruebatfg/models/item/rare_shovel.json",
+          "src/main/resources/assets/pruebatfg/items/rare_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "RareHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pruebatfg/items/rare_hoe.json",
+          "src/main/resources/assets/pruebatfg/models/item/rare_hoe.json",
+          "src/main/java/net/mcreator/pruebatfg/item/RareHoeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RarePickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/pruebatfg/recipe/rare_pickaxe_recipe.json",
+          "src/main/resources/data/pruebatfg/advancement/recipes/rare_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RareAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/pruebatfg/recipe/rare_axe_recipe.json",
+          "src/main/resources/data/pruebatfg/advancement/recipes/rare_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RareSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/pruebatfg/advancement/recipes/rare_sword_recipe.json",
+          "src/main/resources/data/pruebatfg/recipe/rare_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RareShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/pruebatfg/advancement/recipes/rare_shovel_recipe.json",
+          "src/main/resources/data/pruebatfg/recipe/rare_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RareHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/pruebatfg/advancement/recipes/rare_hoe_recipe.json",
+          "src/main/resources/data/pruebatfg/recipe/rare_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RareArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_armor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pruebatfg/item/RareArmorItem.java",
+          "src/main/resources/assets/pruebatfg/equipment/rare_armor.json",
+          "src/main/resources/assets/pruebatfg/items/rare_armor_leggings.json",
+          "src/main/resources/assets/pruebatfg/models/item/rare_armor_chestplate.json",
+          "src/main/resources/assets/pruebatfg/items/rare_armor_helmet.json",
+          "src/main/resources/assets/pruebatfg/items/rare_armor_chestplate.json",
+          "src/main/resources/assets/pruebatfg/items/rare_armor_boots.json",
+          "src/main/resources/assets/pruebatfg/models/item/rare_armor_leggings.json",
+          "src/main/resources/assets/pruebatfg/models/item/rare_armor_boots.json",
+          "src/main/resources/assets/pruebatfg/models/item/rare_armor_helmet.json"
+        ]
+      }
+    },
+    {
+      "name": "RareArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/pruebatfg/recipe/rare_armor_helmet_recipe.json",
+          "src/main/resources/data/pruebatfg/advancement/recipes/rare_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RareArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/pruebatfg/advancement/recipes/rare_armor_chestplate_recipe.json",
+          "src/main/resources/data/pruebatfg/recipe/rare_armor_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RareArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/pruebatfg/recipe/rare_armor_leggings_recipe.json",
+          "src/main/resources/data/pruebatfg/advancement/recipes/rare_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RareArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/pruebatfg/recipe/rare_armor_boots_recipe.json",
+          "src/main/resources/data/pruebatfg/advancement/recipes/rare_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Pepita",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pepita",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pruebatfg/models/item/pepita.json",
+          "src/main/java/net/mcreator/pruebatfg/item/PepitaItem.java",
+          "src/main/resources/assets/pruebatfg/items/pepita.json"
+        ]
+      }
+    },
+    {
+      "name": "LogroMaterialRare",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "logro_material_rare",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/pruebatfg/advancement/logro_material_rare.json"
+        ]
+      }
+    },
+    {
+      "name": "LogroPostMortem",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "logro_post_mortem",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/pruebatfg/advancement/logro_post_mortem.json"
+        ]
+      }
+    },
+    {
+      "name": "ProcedureLogroPostMortem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "procedure_logro_post_mortem",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/pruebatfg/procedures/ProcedureLogroPostMortemProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "LogroArmaduraExtrana",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "logro_armadura_extrana",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/pruebatfg/advancement/logro_armadura_extrana.json"
+        ]
+      }
+    },
+    {
+      "name": "PLogroArmaduraExtrana",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "p_logro_armadura_extrana",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/pruebatfg/procedures/PLogroArmaduraExtranaProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Saitama",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saitama",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/pruebatfg/enchantment/saitama.json"
+        ]
+      }
+    },
+    {
+      "name": "PSaitama",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "p_saitama",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "damagesource",
+            "type": "damagesource"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/pruebatfg/procedures/PSaitamaProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Nubes",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nubes",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pruebatfg/block/NubesBlock.java",
+          "src/main/resources/data/pruebatfg/loot_table/blocks/nubes.json",
+          "src/main/resources/assets/pruebatfg/blockstates/nubes.json",
+          "src/main/resources/assets/pruebatfg/models/block/nubes.json",
+          "src/main/resources/assets/pruebatfg/models/item/nubes.json",
+          "src/main/resources/assets/pruebatfg/items/nubes.json"
+        ]
+      }
+    },
+    {
+      "name": "BiomaCielo",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bioma_cielo",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/pruebatfg/worldgen/biome/bioma_cielo.json"
+        ]
+      }
+    },
+    {
+      "name": "Cielo",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cielo",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pruebatfg/world/dimension/CieloDimension.java",
+          "src/main/java/net/mcreator/pruebatfg/world/teleporter/CieloPortalShape.java",
+          "src/main/resources/data/pruebatfg/dimension_type/cielo.json",
+          "src/main/resources/assets/pruebatfg/items/cielo.json",
+          "src/main/java/net/mcreator/pruebatfg/world/teleporter/CieloTeleporter.java",
+          "src/main/resources/assets/pruebatfg/models/block/cielo_portal_ew.json",
+          "src/main/resources/assets/pruebatfg/models/item/cielo.json",
+          "src/main/resources/data/pruebatfg/dimension/cielo.json",
+          "src/main/resources/assets/pruebatfg/models/block/cielo_portal_ns.json",
+          "src/main/java/net/mcreator/pruebatfg/item/CieloItem.java",
+          "src/main/resources/assets/pruebatfg/blockstates/cielo_portal.json",
+          "src/main/java/net/mcreator/pruebatfg/block/CieloPortalBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "PiedraLuminosaBendita",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "piedra_luminosa_bendita",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/pruebatfg/loot_table/blocks/piedra_luminosa_bendita.json",
+          "src/main/java/net/mcreator/pruebatfg/block/PiedraLuminosaBenditaBlock.java",
+          "src/main/resources/assets/pruebatfg/models/item/piedra_luminosa_bendita.json",
+          "src/main/resources/assets/pruebatfg/blockstates/piedra_luminosa_bendita.json",
+          "src/main/resources/assets/pruebatfg/models/block/piedra_luminosa_bendita.json",
+          "src/main/resources/data/pruebatfg/neoforge/biome_modifier/piedra_luminosa_bendita_biome_modifier.json",
+          "src/main/resources/assets/pruebatfg/items/piedra_luminosa_bendita.json",
+          "src/main/resources/data/pruebatfg/worldgen/configured_feature/piedra_luminosa_bendita.json",
+          "src/main/resources/data/pruebatfg/worldgen/placed_feature/piedra_luminosa_bendita.json"
+        ]
+      }
+    },
+    {
+      "name": "PiedraLuminosaBenditaAdditionalHarvestCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "piedra_luminosa_bendita_additional_harvest_condition",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/pruebatfg/procedures/PiedraLuminosaBenditaAdditionalHarvestConditionProcedure.java"
+        ],
+        "return_type": "logic"
+      }
+    },
+    {
+      "name": "ModCielo",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mod_cielo",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "AguaBenditaRecipie",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "agua_bendita_recipie",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/pruebatfg/advancement/recipes/agua_bendita_recipie.json",
+          "src/main/resources/data/pruebatfg/recipe/agua_bendita_recipie.json"
+        ]
+      }
+    },
+    {
+      "name": "CieloPortalTriggerUsed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cielo_portal_trigger_used",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/pruebatfg/procedures/CieloPortalTriggerUsedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "PlusPlusUltra",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plus_plus_ultra",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/pruebatfg/advancement/plus_plus_ultra.json"
+        ]
+      }
+    },
+    {
+      "name": "RestosMagiaOscura",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "restos_magia_oscura",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pruebatfg/models/item/restos_magia_oscura.json",
+          "src/main/resources/assets/pruebatfg/items/restos_magia_oscura.json",
+          "src/main/java/net/mcreator/pruebatfg/item/RestosMagiaOscuraItem.java"
+        ]
+      }
+    },
+    {
+      "name": "EvocadorOscuro",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "evocador_oscuro",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pruebatfg/entity/EvocadorOscuroEntity.java",
+          "src/main/java/net/mcreator/pruebatfg/client/renderer/EvocadorOscuroRenderer.java",
+          "src/main/resources/data/pruebatfg/neoforge/biome_modifier/evocador_oscuro_biome_modifier.json",
+          "src/main/resources/assets/pruebatfg/items/evocador_oscuro_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "EvocadorOscuroNaturalEntitySpawningCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "evocador_oscuro_natural_entity_spawning_condition",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/pruebatfg/procedures/EvocadorOscuroNaturalEntitySpawningConditionProcedure.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "LogroRareArmorCompletado",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "Player",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    }
+  ],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:RareBlock",
+      "~CUSTOM:RareOre"
+    ],
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:RareBlock",
+      "~CUSTOM:RareOre"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:RarePickaxe"
+    ],
+    "ITEMS:pruebatfg:rare_pickaxe_repair_items": [
+      "~CUSTOM:RareIngot"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~CUSTOM:RareAxe"
+    ],
+    "ITEMS:pruebatfg:rare_axe_repair_items": [
+      "~CUSTOM:RareIngot"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:RareSword"
+    ],
+    "ITEMS:pruebatfg:rare_sword_repair_items": [
+      "~CUSTOM:RareIngot"
+    ],
+    "ITEMS:minecraft:shovels": [
+      "~CUSTOM:RareShovel"
+    ],
+    "ITEMS:pruebatfg:rare_shovel_repair_items": [
+      "~CUSTOM:RareIngot"
+    ],
+    "ITEMS:minecraft:hoes": [
+      "~CUSTOM:RareHoe"
+    ],
+    "ITEMS:pruebatfg:rare_hoe_repair_items": [
+      "~CUSTOM:RareIngot"
+    ],
+    "ITEMS:minecraft:head_armor": [
+      "~CUSTOM:RareArmor.helmet"
+    ],
+    "ITEMS:minecraft:chest_armor": [
+      "~CUSTOM:RareArmor.body"
+    ],
+    "ITEMS:minecraft:leg_armor": [
+      "~CUSTOM:RareArmor.legs"
+    ],
+    "ITEMS:minecraft:foot_armor": [
+      "~CUSTOM:RareArmor.boots"
+    ],
+    "ITEMS:pruebatfg:rare_armor_repair_items": [
+      "~CUSTOM:RareIngot"
+    ],
+    "ENCHANTMENTS:minecraft:tradeable": [
+      "~CUSTOM:Saitama"
+    ],
+    "ENCHANTMENTS:minecraft:on_random_loot": [
+      "~CUSTOM:Saitama"
+    ],
+    "ENCHANTMENTS:minecraft:non_treasure": [
+      "~CUSTOM:Saitama"
+    ],
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~CUSTOM:Nubes"
+    ],
+    "ENTITIES:minecraft:undead": [
+      "~CUSTOM:EvocadorOscuro"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.pruebatfg.rare_ingot": "Rare",
+      "item.pruebatfg.rare_ore": "Rare Ore",
+      "item.pruebatfg.rare_block": "Block of Rare",
+      "item.pruebatfg.rare_pickaxe": "Rare Pickaxe",
+      "item.pruebatfg.rare_axe": "Rare Axe",
+      "item.pruebatfg.rare_sword": "Rare Sword",
+      "item.pruebatfg.rare_shovel": "Rare Shovel",
+      "item.pruebatfg.rare_hoe": "Rare Hoe",
+      "item.pruebatfg.rare_armor_helmet": "Rare Helmet",
+      "item.pruebatfg.rare_armor_leggings": "Rare Leggings",
+      "item.pruebatfg.rare_armor_boots": "Rare Boots",
+      "item.pruebatfg.rare_armor_chestplate": "Rare Chestplate",
+      "item.pruebatfg.pepita": "Rare en bruto",
+      "advancements.logro_material_rare.descr": "Consigue un lingote de Rare",
+      "advancements.logro_material_rare.title": "Un nuevo material",
+      "advancements.logro_post_mortem.descr": "Reaparece",
+      "advancements.logro_post_mortem.title": "Post Mortem",
+      "advancements.logro_armadura_extrana.descr": "Equípate una armadura de rare al completo",
+      "advancements.logro_armadura_extrana.title": "Una armadura extraña",
+      "enchantment.pruebatfg.saitama": "Saitama",
+      "item.pruebatfg.nubes": "Nubes",
+      "biome.pruebatfg.bioma_cielo": "Cielo",
+      "item.pruebatfg.piedra_luminosa_bendita": "Piedra Luminosa Bendita",
+      "item_group.pruebatfg.mod_cielo": "Mod Cielo",
+      "item.pruebatfg.cielo": "Agua Bendita",
+      "advancements.plus_plus_ultra.descr": "Entra en el cielo",
+      "advancements.plus_plus_ultra.title": "Plus Plus Ultra",
+      "item.pruebatfg.restos_magia_oscura": "Restos Magia Oscura",
+      "entity.pruebatfg.evocador_oscuro": "Evocador Oscuro",
+      "item.pruebatfg.evocador_oscuro_spawn_egg": "Evocador Oscuro Spawn Egg"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mcreator/pruebatfg/init/PruebatfgModTabs.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/mcreator/pruebatfg/PruebatfgMod.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/pruebatfg/network/PruebatfgModVariables.java",
+      "src/main/resources/data/neoforge/data_maps/entity_type/monster_room_mobs.json",
+      "src/main/java/net/mcreator/pruebatfg/init/PruebatfgModBlocks.java",
+      "src/main/java/net/mcreator/pruebatfg/init/PruebatfgModItems.java",
+      "src/main/java/net/mcreator/pruebatfg/init/PruebatfgModEntities.java",
+      "src/main/java/net/mcreator/pruebatfg/init/PruebatfgModEntityRenderers.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "pruebatfg",
+    "modName": "PruebaTFG",
+    "version": "1.0.0",
+    "author": "MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.4",
+    "modElementsPackage": "net.mcreator.pruebatfg"
+  },
+  "mcreatorVersion": 202500228610
+}

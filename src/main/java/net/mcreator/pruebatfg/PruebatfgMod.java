@@ -21,6 +21,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.mcreator.pruebatfg.network.PruebatfgModVariables;
 import net.mcreator.pruebatfg.init.PruebatfgModTabs;
 import net.mcreator.pruebatfg.init.PruebatfgModItems;
+import net.mcreator.pruebatfg.init.PruebatfgModEntities;
 import net.mcreator.pruebatfg.init.PruebatfgModBlocks;
 
 import java.util.concurrent.ConcurrentLinkedQueue;
@@ -44,7 +45,7 @@ public class PruebatfgMod {
 		PruebatfgModBlocks.REGISTRY.register(modEventBus);
 
 		PruebatfgModItems.REGISTRY.register(modEventBus);
-
+		PruebatfgModEntities.REGISTRY.register(modEventBus);
 		PruebatfgModTabs.REGISTRY.register(modEventBus);
 		PruebatfgModVariables.ATTACHMENT_TYPES.register(modEventBus);
 

@@ -45,6 +45,8 @@ public class PruebatfgModTabs {
 			tabData.accept(PruebatfgModItems.RARE_ARMOR_CHESTPLATE.get());
 			tabData.accept(PruebatfgModItems.RARE_ARMOR_LEGGINGS.get());
 			tabData.accept(PruebatfgModItems.RARE_ARMOR_BOOTS.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
+			tabData.accept(PruebatfgModItems.EVOCADOR_OSCURO_SPAWN_EGG.get());
 		}
 	}
 }

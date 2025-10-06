@@ -1,20 +1,3 @@
-/tp @s -784 ~ -928
-/tp 0 40 0
-/locate structure pruebatfg:prueba
-/tp @s -944 ~ 576
-/locate structure pruebatfg:prueba
-/tp @s -368 ~ -304
-/gamemode
-/gamemode spectator
-/locate structure pruebatfg:prueba
-/tp @s -224 ~ 160
-/locate structure pruebatfg:prueba
-/tp @s -48 ~ -224
-/gamerule doDaylightCycle false
-/time set day
-/locate structure pruebatfg:prueba
-/tp @s 272 ~ 736
-/locate structure pruebatfg:prueba
 /tp @s -64 ~ -64
 /tp 1000 40 1000
 /gamemode spectator
@@ -48,3 +31,20 @@
 /tp 1000 100 1000
 /gamemode spectator
 /advancement grant Dev everything
+/gamemode survival
+/locate structure minecraft:fortress
+/tp @s -832 ~ -80
+/gamemode spectator
+/gamemode creativeq
+/gamemode creative
+/gamemode spectator
+/tp 1000 100 1000
+/locate structure minecraft:fortress
+/tp @s 784 ~ 784
+/gamemode creative
+/locate structure minecraft:fortress
+/gamemode spectator
+/tp @s -304 ~ 528
+/gamerule randomTickSpeed 1000
+/gamemode creative
+/gamemode spectator
