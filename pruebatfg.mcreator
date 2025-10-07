@@ -541,24 +541,6 @@
       }
     },
     {
-      "name": "CieloPortalTriggerUsed",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cielo_portal_trigger_used",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ],
-        "files": [
-          "src/main/java/net/mcreator/pruebatfg/procedures/CieloPortalTriggerUsedProcedure.java"
-        ]
-      }
-    },
-    {
       "name": "PlusPlusUltra",
       "type": "achievement",
       "compiles": true,
@@ -608,6 +590,33 @@
       "metadata": {
         "files": [
           "src/main/resources/data/pruebatfg/loot_table/entities/evocador_oscuro.json"
+        ]
+      }
+    },
+    {
+      "name": "PolvoDePiedraLuminosaBendita",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polvo_de_piedra_luminosa_bendita",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pruebatfg/models/item/polvo_de_piedra_luminosa_bendita.json",
+          "src/main/resources/assets/pruebatfg/items/polvo_de_piedra_luminosa_bendita.json",
+          "src/main/java/net/mcreator/pruebatfg/item/PolvoDePiedraLuminosaBenditaItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RecetaPiedraLuminosaBendita",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "receta_piedra_luminosa_bendita",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/pruebatfg/recipe/receta_piedra_luminosa_bendita.json",
+          "src/main/resources/data/pruebatfg/advancement/recipes/receta_piedra_luminosa_bendita.json"
         ]
       }
     }
@@ -729,7 +738,8 @@
       "advancements.plus_plus_ultra.title": "Plus Plus Ultra",
       "item.pruebatfg.restos_magia_oscura": "Restos Magia Oscura",
       "entity.pruebatfg.evocador_oscuro": "Evocador Oscuro",
-      "item.pruebatfg.evocador_oscuro_spawn_egg": "Evocador Oscuro Spawn Egg"
+      "item.pruebatfg.evocador_oscuro_spawn_egg": "Evocador Oscuro Spawn Egg",
+      "item.pruebatfg.polvo_de_piedra_luminosa_bendita": "Polvo de piedra luminosa bendita"
     }
   },
   "metadata": {
@@ -739,7 +749,6 @@
       "src/main/java/net/mcreator/pruebatfg/PruebatfgMod.java",
       "src/main/resources/pack.mcmeta",
       "src/main/java/net/mcreator/pruebatfg/network/PruebatfgModVariables.java",
-      "src/main/resources/data/neoforge/data_maps/entity_type/monster_room_mobs.json",
       "src/main/java/net/mcreator/pruebatfg/init/PruebatfgModBlocks.java",
       "src/main/java/net/mcreator/pruebatfg/init/PruebatfgModItems.java",
       "src/main/java/net/mcreator/pruebatfg/init/PruebatfgModEntities.java",

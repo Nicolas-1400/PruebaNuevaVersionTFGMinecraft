@@ -64,9 +64,6 @@
     ],
     "texture": "aguabedita",
     "portalTexture": "portalagua",
-    "enablePortal": true,
-    "whenPortaTriggerlUsed": {
-      "name": "CieloPortalTriggerUsed"
-    }
+    "enablePortal": true
   }
 }

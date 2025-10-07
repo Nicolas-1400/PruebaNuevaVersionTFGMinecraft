@@ -1,13 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "minecraft:block/glowstone",
-    "up": "minecraft:block/glowstone",
-    "north": "minecraft:block/glowstone",
-    "east": "minecraft:block/glowstone",
-    "south": "minecraft:block/glowstone",
-    "west": "minecraft:block/glowstone",
-    "particle": "minecraft:block/glowstone"
+    "down": "pruebatfg:block/piedraluminosabendita",
+    "up": "pruebatfg:block/piedraluminosabendita",
+    "north": "pruebatfg:block/piedraluminosabendita",
+    "east": "pruebatfg:block/piedraluminosabendita",
+    "south": "pruebatfg:block/piedraluminosabendita",
+    "west": "pruebatfg:block/piedraluminosabendita",
+    "particle": "pruebatfg:block/piedraluminosabendita"
   },
   "render_type": "solid"
 }

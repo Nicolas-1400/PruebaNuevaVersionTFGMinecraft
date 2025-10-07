@@ -3,7 +3,7 @@
   "biomes": "#minecraft:is_nether",
   "spawners": {
     "type": "pruebatfg:evocador_oscuro",
-    "weight": 20,
+    "weight": 1,
     "minCount": 1,
     "maxCount": 1
   }

@@ -1,0 +1,56 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:PolvoDePiedraLuminosaBendita"
+      },
+      {
+        "value": "CUSTOM:RestosMagiaOscura"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:PolvoDePiedraLuminosaBendita"
+      },
+      {
+        "value": "CUSTOM:PolvoDePiedraLuminosaBendita"
+      },
+      {
+        "value": "CUSTOM:PolvoDePiedraLuminosaBendita"
+      },
+      {
+        "value": "CUSTOM:RestosMagiaOscura"
+      },
+      {
+        "value": "CUSTOM:RestosMagiaOscura"
+      },
+      {
+        "value": "CUSTOM:RestosMagiaOscura"
+      },
+      {
+        "value": "CUSTOM:PolvoDePiedraLuminosaBendita"
+      },
+      {
+        "value": "CUSTOM:PolvoDePiedraLuminosaBendita"
+      },
+      {
+        "value": "CUSTOM:PolvoDePiedraLuminosaBendita"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:PiedraLuminosaBendita"
+    },
+    "name": "receta_piedra_luminosa_bendita",
+    "namespace": "mod"
+  }
+}

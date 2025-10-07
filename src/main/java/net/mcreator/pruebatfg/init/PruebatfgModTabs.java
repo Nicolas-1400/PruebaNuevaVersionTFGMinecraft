@@ -25,6 +25,7 @@ public class PruebatfgModTabs {
 				tabData.accept(PruebatfgModBlocks.NUBES.get().asItem());
 				tabData.accept(PruebatfgModItems.CIELO.get());
 				tabData.accept(PruebatfgModBlocks.PIEDRA_LUMINOSA_BENDITA.get().asItem());
+				tabData.accept(PruebatfgModItems.POLVO_DE_PIEDRA_LUMINOSA_BENDITA.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent

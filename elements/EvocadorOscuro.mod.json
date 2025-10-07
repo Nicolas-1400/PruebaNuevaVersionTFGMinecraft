@@ -135,7 +135,7 @@
     "rangedAttackRadius": 10.0,
     "spawnThisMob": true,
     "doesDespawnWhenIdle": true,
-    "spawningProbability": 20,
+    "spawningProbability": 1,
     "mobSpawningType": "monster",
     "minNumberOfMobsPerGroup": 1,
     "maxNumberOfMobsPerGroup": 1,
@@ -144,7 +144,7 @@
         "value": "#minecraft:is_nether"
       }
     ],
-    "spawnInDungeons": true,
+    "spawnInDungeons": false,
     "raidSpawnsCount": [
       4,
       3,

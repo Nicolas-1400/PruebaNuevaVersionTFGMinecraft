@@ -20,6 +20,7 @@ import net.mcreator.pruebatfg.item.RareIngotItem;
 import net.mcreator.pruebatfg.item.RareHoeItem;
 import net.mcreator.pruebatfg.item.RareAxeItem;
 import net.mcreator.pruebatfg.item.RareArmorItem;
+import net.mcreator.pruebatfg.item.PolvoDePiedraLuminosaBenditaItem;
 import net.mcreator.pruebatfg.item.PepitaItem;
 import net.mcreator.pruebatfg.item.CieloItem;
 import net.mcreator.pruebatfg.PruebatfgMod;
@@ -46,6 +47,7 @@ public class PruebatfgModItems {
 	public static final DeferredItem<Item> PIEDRA_LUMINOSA_BENDITA = block(PruebatfgModBlocks.PIEDRA_LUMINOSA_BENDITA);
 	public static final DeferredItem<Item> RESTOS_MAGIA_OSCURA = register("restos_magia_oscura", RestosMagiaOscuraItem::new);
 	public static final DeferredItem<Item> EVOCADOR_OSCURO_SPAWN_EGG = register("evocador_oscuro_spawn_egg", properties -> new SpawnEggItem(PruebatfgModEntities.EVOCADOR_OSCURO.get(), properties));
+	public static final DeferredItem<Item> POLVO_DE_PIEDRA_LUMINOSA_BENDITA = register("polvo_de_piedra_luminosa_bendita", PolvoDePiedraLuminosaBenditaItem::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -1,18 +1,3 @@
-/tp @s -64 ~ -64
-/tp 1000 40 1000
-/gamemode spectator
-/locate structure pruebatfg:prueba
-/tp @s 992 ~ 960
-/locate structure pruebatfg:prueba
-/tp @s 176 ~ -240
-/gamemode spectator
-/locate structure pruebatfg:prueba
-/tp @s 496 ~ -304
-/locate structure pruebatfg:prueba
-/tp @s 32 ~ -64
-/locate structure pruebatfg:prueba
-/tp @s 96 ~ 176
-/gamemode spectator
 /effect give @e minecraft:night_vision infinite
 /execute if block -522 -40 -73 minecraft:diamond_ore
 /gamemode spectator
@@ -48,3 +33,18 @@
 /gamerule randomTickSpeed 1000
 /gamemode creative
 /gamemode spectator
+/locate structure minecraft:fortress
+/tp @s -128 ~ -192
+/gamemode spectator
+/gamerule randomTickSpeed 1000
+/gamemode creative
+/gamemode spectator
+/locate structure minecraft:fortress
+/tp @s -864 ~ 224
+/gamemode spectator
+/gamerule randomTickSpeed 1000
+/gamemode spectator
+/locate structure minecraft:fortress
+/tp @s 272 ~ 256
+/gamemode creative
+/gamerule randomTickSpeed 1000

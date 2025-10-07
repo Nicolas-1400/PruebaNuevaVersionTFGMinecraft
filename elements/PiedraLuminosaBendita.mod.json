@@ -2,7 +2,7 @@
   "_fv": 79,
   "_type": "block",
   "definition": {
-    "texture": "minecraft:glowstone",
+    "texture": "piedraluminosabendita",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -55,7 +55,7 @@
     ],
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:PolvoDePiedraLuminosaBendita"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,

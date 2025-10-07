@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bbb",
+    "aaa"
+  ],
+  "key": {
+    "a": "pruebatfg:polvo_de_piedra_luminosa_bendita",
+    "b": "pruebatfg:restos_magia_oscura"
+  },
+  "result": {
+    "id": "pruebatfg:piedra_luminosa_bendita",
+    "count": 1
+  }
+}
