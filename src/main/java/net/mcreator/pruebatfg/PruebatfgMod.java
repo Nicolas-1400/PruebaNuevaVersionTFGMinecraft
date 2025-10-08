@@ -18,6 +18,7 @@ import net.minecraft.network.protocol.common.custom.CustomPacketPayload;
 import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.pruebatfg.world.features.StructureFeature;
 import net.mcreator.pruebatfg.network.PruebatfgModVariables;
 import net.mcreator.pruebatfg.init.PruebatfgModTabs;
 import net.mcreator.pruebatfg.init.PruebatfgModItems;
@@ -48,6 +49,8 @@ public class PruebatfgMod {
 		PruebatfgModEntities.REGISTRY.register(modEventBus);
 		PruebatfgModTabs.REGISTRY.register(modEventBus);
 		PruebatfgModVariables.ATTACHMENT_TYPES.register(modEventBus);
+
+		StructureFeature.REGISTRY.register(modEventBus);
 
 		// Start of user code block mod init
 		// End of user code block mod init

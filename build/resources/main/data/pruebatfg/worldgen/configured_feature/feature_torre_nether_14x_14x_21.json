@@ -1,0 +1,13 @@
+{
+  "type": "pruebatfg:structure_feature",
+  "config": {
+    "structure": "pruebatfg:torre_nether_14x14x21",
+    "random_rotation": true,
+    "ignored_blocks": "minecraft:bedrock",
+    "offset": [
+      -14,
+      0,
+      -14
+    ]
+  }
+}
